@@ -1,0 +1,888 @@
+﻿Log file open, 01/28/15 14:26:54
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.28-19.26.55:050][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.28-19.26.55:114][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.28-19.26.55:331][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.28-19.26.55:661][  0]LogInit: Object subsystem initialized
+[2015.01.28-19.26.56:036][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.28-19.26.56:036][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.28-19.26.56:132][  0]LogInit: Computer: LENOVO-PC
+[2015.01.28-19.26.56:132][  0]LogInit: User: eric
+[2015.01.28-19.26.56:132][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.28-19.26.56:132][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.01.28-19.26.56:164][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.28-19.26.56:165][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.28-19.26.56:165][  0]LogMemory: Process Physical Memory: 48.63 MB used, 48.63 MB peak
+[2015.01.28-19.26.56:165][  0]LogMemory: Process Virtual Memory: 24.69 MB used, 24.69 MB peak
+[2015.01.28-19.26.56:165][  0]LogMemory: Physical Memory: 5021.28 MB used, 8138.27 MB total
+[2015.01.28-19.26.56:165][  0]LogMemory: Virtual Memory: 273.26 MB used, 134217728.00 MB total
+[2015.01.28-19.26.56:403][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.28-19.26.56:403][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.28-19.26.56:431][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.28-19.26.56:431][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.28-19.26.56:432][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.28-19.26.56:432][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.28-19.26.56:432][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.28-19.26.56:439][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.28-19.26.56:477][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.28-19.26.59:268][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.28-19.26.59:768][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.28-19.27.29:040][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.27.29:477][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.27.30:049][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.28-19.27.31:439][  0]LogDerivedDataCache: Loaded boot cache 1.22s 39MB C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.28-19.27.31:439][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.28-19.27.31:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.28-19.27.31:440][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.28-19.27.31:845][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.28-19.27.32:034][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eric/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.28-19.27.50:237][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.28-19.27.56:104][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.28-19.27.56:104][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.28-19.28.15:898][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.28-19.28.17:274][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.28-19.29.54:910][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.28-19.29.56:848][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Binaries/Win64. Error: 0
+[2015.01.28-19.30.10:888][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.30.10:888][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.30.10:895][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.30.12:829][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.28-19.30.12:829][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.28-19.30.14:422][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.30s
+[2015.01.28-19.30.14:598][  0]LogEngine: Initializing Engine...
+[2015.01.28-19.30.16:667][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.28-19.30.16:886][  0]LogInit: FAudioDevice initialized.
+[2015.01.28-19.30.18:959][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.28-19.30.19:391][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.28-19.30.19:395][  0]LogInit: Texture streaming: Enabled
+[2015.01.28-19.30.20:204][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.28-19.30.20:204][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.28-19.30.20:206][  0]LogAnalytics: SetUserId 7d92e87c14bba1ec53d44500474e03f3
+[2015.01.28-19.30.20:206][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.28-19.30.22:392][  0]LogInit: Transaction tracking system initialized
+[2015.01.28-19.30.23:502][  0]BlueprintLog: New page: Editor Load
+[2015.01.28-19.30.23:827][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.01.28-19.30.23:879][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.28-19.30.28:075][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.30.28:626][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.30.30:505][  0]LogConsoleResponse:Display: 
+[2015.01.28-19.30.34:030][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.28-19.30.39:225][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.30.39:417][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.28-19.30.39:776][  0]LightingResults: New page: Lighting Build
+[2015.01.28-19.30.40:363][  0]MapCheck: New page: Map Check
+[2015.01.28-19.30.40:363][  0]LightingResults: New page: Lighting Build
+[2015.01.28-19.30.41:459][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036BAA019E0
+[2015.01.28-19.30.51:857][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.01.28-19.30.51:993][  0]LogBlueprint:Warning: [compiler] Warning [0247.11] Compile of ContextMenu successful, but with 1 Warning(s) [in 209 ms]
+[2015.01.28-19.30.53:340][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.01.28-19.30.53:389][  0]LogBlueprint:Warning: [compiler] Warning [0248.51] Compile of ContextMenu successful, but with 1 Warning(s) [in 70 ms]
+[2015.01.28-19.30.53:390][  0]LogBlueprint:Warning: [compiler] Warning [0248.51] Compile of ContextMenu successful, but with 2 Warning(s) [in 0 ms]
+[2015.01.28-19.31.01:381][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.28-19.31.01:425][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.28-19.31.01:673][  0]Cmd: MAP CHECKDEP
+[2015.01.28-19.31.01:674][  0]MapCheck: New page: Example_Map - Jan 28, 2015, 9:31:01 AM
+[2015.01.28-19.31.01:913][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 240.301ms to complete.
+[2015.01.28-19.31.01:913][  0]LogFileHelpers: Loading map 'Example_Map' took 22.565
+[2015.01.28-19.31.04:526][  0]LogCollectionManager: Loaded 0 collections in 0.001770 seconds
+[2015.01.28-19.31.13:077][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.28-19.31.13:737][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.28-19.31.13:837][  0]LogLoad: Full Startup: 268.96 seconds (BP compile: 3.67 seconds)
+[2015.01.28-19.31.17:430][  0]LogRenderer:Warning: Reallocating scene render targets to support 568x896.
+[2015.01.28-19.31.19:458][  2]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownInteriors'
+[2015.01.28-19.31.24:352][ 10]LogAssetRegistry: Asset discovery search completed in 60.5366 seconds
+[2015.01.28-19.31.24:554][ 10]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2015.01.28-19.31.27:713][165]LogRenderer:Warning: Reallocating scene render targets to support 776x896.
+[2015.01.28-19.31.32:579][445]LogRenderer:Warning: Reallocating scene render targets to support 904x896.
+[2015.01.28-19.31.40:384][883]LogRenderer:Warning: Reallocating scene render targets to support 920x896.
+[2015.01.28-19.32.08:574][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorPlane)
+[2015.01.28-19.32.09:506][540]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.28-19.32.17:883][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.28-19.33.19:920][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.01.28-19.33.19:932][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.01.28-19.33.19:942][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.01.28-19.33.33:489][578]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.01.28-19.34.55:170][382]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.01.28-19.34.55:274][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.28-19.34.56:120][382]LogEditorActor: Deleted 1 Actors (0.985 secs)
+[2015.01.28-19.35.06:805][ 16]Cmd: DELETE
+[2015.01.28-19.35.06:805][ 16]Cmd: ACTOR DELETE
+[2015.01.28-19.35.07:094][ 16]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2015.01.28-19.35.07:131][ 16]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.01.28-19.35.09:503][156]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.01.28-19.35.09:517][156]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.01.28-19.35.12:969][362]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.01.28-19.35.12:994][362]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.01.28-19.35.25:252][ 62]Cmd: DELETE
+[2015.01.28-19.35.25:252][ 62]Cmd: ACTOR DELETE
+[2015.01.28-19.35.25:252][ 62]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2015.01.28-19.35.25:267][ 62]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.01.28-19.39.05:822][660]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2015.01.28-19.39.08:859][842]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownSciFi'
+[2015.01.28-19.39.18:696][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:696][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:697][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:697][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:698][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:698][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:699][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:700][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:700][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:701][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:701][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:701][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:702][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:702][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:703][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:703][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:704][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:704][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:705][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:705][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:706][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:707][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:707][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:708][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:708][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:709][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:709][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.39.18:837][992]LogStaticMesh: Building static mesh Pillar_08...
+[2015.01.28-19.39.18:946][992]LogStaticMesh: Built static mesh [143.243988ms] /Game/TopDownSciFi/Decos/Pillar_08.Pillar_08
+[2015.01.28-19.39.19:796][992]LogStaticMesh: Building static mesh Barrier_Pole_01...
+[2015.01.28-19.39.19:797][992]LogStaticMesh: Built static mesh [1.926575ms] /Game/TopDownSciFi/Decos/Barrier_Pole_01.Barrier_Pole_01
+[2015.01.28-19.39.19:893][992]LogStaticMesh: Building static mesh Barrier_Pole_02...
+[2015.01.28-19.39.19:894][992]LogStaticMesh: Built static mesh [62.263241ms] /Game/TopDownSciFi/Decos/Barrier_Pole_02.Barrier_Pole_02
+[2015.01.28-19.39.19:955][992]LogStaticMesh: Building static mesh Barrier_Pole_03...
+[2015.01.28-19.39.19:956][992]LogStaticMesh: Built static mesh [31.750648ms] /Game/TopDownSciFi/Decos/Barrier_Pole_03.Barrier_Pole_03
+[2015.01.28-19.39.20:000][992]LogStaticMesh: Building static mesh Barrier_Pole_04...
+[2015.01.28-19.39.20:001][992]LogStaticMesh: Built static mesh [32.339096ms] /Game/TopDownSciFi/Decos/Barrier_Pole_04.Barrier_Pole_04
+[2015.01.28-19.39.20:033][992]LogStaticMesh: Building static mesh Bed_01...
+[2015.01.28-19.39.20:057][992]LogStaticMesh: Built static mesh [55.532841ms] /Game/TopDownSciFi/Decos/Bed_01.Bed_01
+[2015.01.28-19.39.20:178][992]LogStaticMesh: Building static mesh Bed_02...
+[2015.01.28-19.39.20:208][992]LogStaticMesh: Built static mesh [87.894180ms] /Game/TopDownSciFi/Decos/Bed_02.Bed_02
+[2015.01.28-19.39.20:228][992]LogStaticMesh: Building static mesh Bench...
+[2015.01.28-19.39.20:232][992]LogStaticMesh: Built static mesh [18.030693ms] /Game/TopDownSciFi/Decos/Bench.Bench
+[2015.01.28-19.39.20:249][992]LogStaticMesh: Building static mesh Box_01...
+[2015.01.28-19.39.20:250][992]LogStaticMesh: Built static mesh [1.232923ms] /Game/TopDownSciFi/Decos/Box_01.Box_01
+[2015.01.28-19.39.20:268][992]LogStaticMesh: Building static mesh Box_02...
+[2015.01.28-19.39.20:269][992]LogStaticMesh: Built static mesh [1.207264ms] /Game/TopDownSciFi/Decos/Box_02.Box_02
+[2015.01.28-19.39.20:362][992]LogStaticMesh: Building static mesh Box_03...
+[2015.01.28-19.39.20:365][992]LogStaticMesh: Built static mesh [32.203960ms] /Game/TopDownSciFi/Decos/Box_03.Box_03
+[2015.01.28-19.39.20:399][992]LogStaticMesh: Building static mesh Box_04...
+[2015.01.28-19.39.20:402][992]LogStaticMesh: Built static mesh [3.105186ms] /Game/TopDownSciFi/Decos/Box_04.Box_04
+[2015.01.28-19.39.20:405][992]LogStaticMesh: Building static mesh Box_05...
+[2015.01.28-19.39.20:408][992]LogStaticMesh: Built static mesh [3.802260ms] /Game/TopDownSciFi/Decos/Box_05.Box_05
+[2015.01.28-19.39.20:446][992]LogStaticMesh: Building static mesh Box_06...
+[2015.01.28-19.39.20:448][992]LogStaticMesh: Built static mesh [3.382733ms] /Game/TopDownSciFi/Decos/Box_06.Box_06
+[2015.01.28-19.39.20:475][992]LogStaticMesh: Building static mesh Box_07...
+[2015.01.28-19.39.20:478][992]LogStaticMesh: Built static mesh [2.980739ms] /Game/TopDownSciFi/Decos/Box_07.Box_07
+[2015.01.28-19.39.20:535][992]LogStaticMesh: Building static mesh Cable1...
+[2015.01.28-19.39.20:545][992]LogStaticMesh: Built static mesh [65.900002ms] /Game/TopDownSciFi/Decos/Cable1.Cable1
+[2015.01.28-19.39.20:614][992]LogStaticMesh: Building static mesh Cable2...
+[2015.01.28-19.39.20:626][992]LogStaticMesh: Built static mesh [72.340874ms] /Game/TopDownSciFi/Decos/Cable2.Cable2
+[2015.01.28-19.39.20:653][992]LogStaticMesh: Building static mesh Ceiling_01...
+[2015.01.28-19.39.20:653][992]LogStaticMesh: Built static mesh [1.120022ms] /Game/TopDownSciFi/Decos/Ceiling_01.Ceiling_01
+[2015.01.28-19.39.20:679][992]LogStaticMesh: Building static mesh Chair_01...
+[2015.01.28-19.39.20:689][992]LogStaticMesh: Built static mesh [32.878796ms] /Game/TopDownSciFi/Decos/Chair_01.Chair_01
+[2015.01.28-19.39.20:735][992]LogStaticMesh: Building static mesh Chair_02...
+[2015.01.28-19.39.20:749][992]LogStaticMesh: Built static mesh [42.536903ms] /Game/TopDownSciFi/Decos/Chair_02.Chair_02
+[2015.01.28-19.39.20:813][992]LogStaticMesh: Building static mesh Cylinder_01...
+[2015.01.28-19.39.20:820][992]LogStaticMesh: Built static mesh [32.475948ms] /Game/TopDownSciFi/Decos/Cylinder_01.Cylinder_01
+[2015.01.28-19.39.20:952][992]LogStaticMesh: Building static mesh Cylinder_02...
+[2015.01.28-19.39.20:959][992]LogStaticMesh: Built static mesh [54.785305ms] /Game/TopDownSciFi/Decos/Cylinder_02.Cylinder_02
+[2015.01.28-19.39.21:008][992]LogStaticMesh: Building static mesh Cylinder_03...
+[2015.01.28-19.39.21:013][992]LogStaticMesh: Built static mesh [5.148939ms] /Game/TopDownSciFi/Decos/Cylinder_03.Cylinder_03
+[2015.01.28-19.39.21:052][992]LogStaticMesh: Building static mesh Generator_01...
+[2015.01.28-19.39.21:089][992]LogStaticMesh: Built static mesh [68.140045ms] /Game/TopDownSciFi/Decos/Generator_01.Generator_01
+[2015.01.28-19.39.21:146][992]LogStaticMesh: Building static mesh Generator_02...
+[2015.01.28-19.39.21:201][992]LogStaticMesh: Built static mesh [79.709763ms] /Game/TopDownSciFi/Decos/Generator_02.Generator_02
+[2015.01.28-19.39.21:234][992]LogStaticMesh: Building static mesh Generator_03...
+[2015.01.28-19.39.21:239][992]LogStaticMesh: Built static mesh [5.858842ms] /Game/TopDownSciFi/Decos/Generator_03.Generator_03
+[2015.01.28-19.39.21:292][992]LogStaticMesh: Building static mesh Generator_04...
+[2015.01.28-19.39.21:302][992]LogStaticMesh: Built static mesh [35.824039ms] /Game/TopDownSciFi/Decos/Generator_04.Generator_04
+[2015.01.28-19.39.21:367][992]LogStaticMesh: Building static mesh Generator_05...
+[2015.01.28-19.39.21:439][992]LogStaticMesh: Built static mesh [133.648315ms] /Game/TopDownSciFi/Decos/Generator_05.Generator_05
+[2015.01.28-19.39.21:545][992]LogStaticMesh: Building static mesh Lab_el_01...
+[2015.01.28-19.39.21:563][992]LogStaticMesh: Built static mesh [19.134893ms] /Game/TopDownSciFi/Decos/Lab_el_01.Lab_el_01
+[2015.01.28-19.39.21:586][992]LogStaticMesh: Building static mesh Lab_el_02...
+[2015.01.28-19.39.21:592][992]LogStaticMesh: Built static mesh [5.961479ms] /Game/TopDownSciFi/Decos/Lab_el_02.Lab_el_02
+[2015.01.28-19.39.21:676][992]LogStaticMesh: Building static mesh Lab_el_03...
+[2015.01.28-19.39.21:681][992]LogStaticMesh: Built static mesh [31.673670ms] /Game/TopDownSciFi/Decos/Lab_el_03.Lab_el_03
+[2015.01.28-19.39.21:715][992]LogStaticMesh: Building static mesh LED_01...
+[2015.01.28-19.39.21:717][992]LogStaticMesh: Built static mesh [32.816357ms] /Game/TopDownSciFi/Decos/LED_01.LED_01
+[2015.01.28-19.39.21:856][992]LogStaticMesh: Building static mesh LED_03...
+[2015.01.28-19.39.21:862][992]LogStaticMesh: Built static mesh [6.228762ms] /Game/TopDownSciFi/Decos/LED_03.LED_03
+[2015.01.28-19.39.21:866][992]LogStaticMesh: Building static mesh LED_04...
+[2015.01.28-19.39.21:871][992]LogStaticMesh: Built static mesh [5.344376ms] /Game/TopDownSciFi/Decos/LED_04.LED_04
+[2015.01.28-19.39.22:178][992]LogStaticMesh: Building static mesh LED_06...
+[2015.01.28-19.39.22:183][992]LogStaticMesh: Built static mesh [5.360627ms] /Game/TopDownSciFi/Decos/LED_06.LED_06
+[2015.01.28-19.39.22:203][992]LogStaticMesh: Building static mesh LED_07A...
+[2015.01.28-19.39.22:205][992]LogStaticMesh: Built static mesh [2.464563ms] /Game/TopDownSciFi/Decos/LED_07A.LED_07A
+[2015.01.28-19.39.22:301][992]LogStaticMesh: Building static mesh LED_08...
+[2015.01.28-19.39.22:302][992]LogStaticMesh: Built static mesh [15.121372ms] /Game/TopDownSciFi/Decos/LED_08.LED_08
+[2015.01.28-19.39.22:350][992]LogStaticMesh: Building static mesh LED_09...
+[2015.01.28-19.39.22:352][992]LogStaticMesh: Built static mesh [48.980774ms] /Game/TopDownSciFi/Decos/LED_09.LED_09
+[2015.01.28-19.39.22:422][992]LogStaticMesh: Building static mesh LED_10...
+[2015.01.28-19.39.22:425][992]LogStaticMesh: Built static mesh [4.064411ms] /Game/TopDownSciFi/Decos/LED_10.LED_10
+[2015.01.28-19.39.22:472][992]LogStaticMesh: Building static mesh Light_01...
+[2015.01.28-19.39.22:474][992]LogStaticMesh: Built static mesh [2.341398ms] /Game/TopDownSciFi/Decos/Light_01.Light_01
+[2015.01.28-19.39.22:529][992]LogStaticMesh: Building static mesh Light_02...
+[2015.01.28-19.39.22:532][992]LogStaticMesh: Built static mesh [3.197987ms] /Game/TopDownSciFi/Decos/Light_02.Light_02
+[2015.01.28-19.39.22:591][992]LogStaticMesh: Building static mesh Locker_01A...
+[2015.01.28-19.39.22:592][992]LogStaticMesh: Built static mesh [27.894075ms] /Game/TopDownSciFi/Decos/Locker_01A.Locker_01A
+[2015.01.28-19.39.22:618][992]LogStaticMesh: Building static mesh Locker_01B...
+[2015.01.28-19.39.22:621][992]LogStaticMesh: Built static mesh [26.942549ms] /Game/TopDownSciFi/Decos/Locker_01B.Locker_01B
+[2015.01.28-19.39.22:645][992]LogStaticMesh: Building static mesh Locker_01C...
+[2015.01.28-19.39.22:649][992]LogStaticMesh: Built static mesh [25.527445ms] /Game/TopDownSciFi/Decos/Locker_01C.Locker_01C
+[2015.01.28-19.39.22:700][992]LogStaticMesh: Building static mesh Locker_02A...
+[2015.01.28-19.39.22:702][992]LogStaticMesh: Built static mesh [21.892397ms] /Game/TopDownSciFi/Decos/Locker_02A.Locker_02A
+[2015.01.28-19.39.22:754][992]LogStaticMesh: Building static mesh Locker_02B...
+[2015.01.28-19.39.22:757][992]LogStaticMesh: Built static mesh [3.114167ms] /Game/TopDownSciFi/Decos/Locker_02B.Locker_02B
+[2015.01.28-19.39.22:761][992]LogStaticMesh: Building static mesh Locker_02C...
+[2015.01.28-19.39.22:765][992]LogStaticMesh: Built static mesh [4.084084ms] /Game/TopDownSciFi/Decos/Locker_02C.Locker_02C
+[2015.01.28-19.39.22:773][992]LogStaticMesh: Building static mesh Locker_03A...
+[2015.01.28-19.39.22:776][992]LogStaticMesh: Built static mesh [3.285228ms] /Game/TopDownSciFi/Decos/Locker_03A.Locker_03A
+[2015.01.28-19.39.22:780][992]LogStaticMesh: Building static mesh Locker_03B...
+[2015.01.28-19.39.22:785][992]LogStaticMesh: Built static mesh [5.060842ms] /Game/TopDownSciFi/Decos/Locker_03B.Locker_03B
+[2015.01.28-19.39.22:821][992]LogStaticMesh: Building static mesh Locker_03C...
+[2015.01.28-19.39.22:824][992]LogStaticMesh: Built static mesh [20.623125ms] /Game/TopDownSciFi/Decos/Locker_03C.Locker_03C
+[2015.01.28-19.39.22:847][992]LogStaticMesh: Building static mesh Locker_04A...
+[2015.01.28-19.39.22:849][992]LogStaticMesh: Built static mesh [2.345675ms] /Game/TopDownSciFi/Decos/Locker_04A.Locker_04A
+[2015.01.28-19.39.22:908][992]LogStaticMesh: Building static mesh Locker_04B...
+[2015.01.28-19.39.22:913][992]LogStaticMesh: Built static mesh [62.440716ms] /Game/TopDownSciFi/Decos/Locker_04B.Locker_04B
+[2015.01.28-19.39.22:927][992]LogStaticMesh: Building static mesh Locker_04C...
+[2015.01.28-19.39.22:935][992]LogStaticMesh: Built static mesh [7.900029ms] /Game/TopDownSciFi/Decos/Locker_04C.Locker_04C
+[2015.01.28-19.39.22:939][992]LogStaticMesh: Building static mesh Locker_05A...
+[2015.01.28-19.39.22:942][992]LogStaticMesh: Built static mesh [3.246312ms] /Game/TopDownSciFi/Decos/Locker_05A.Locker_05A
+[2015.01.28-19.39.22:981][992]LogStaticMesh: Building static mesh Locker_05B...
+[2015.01.28-19.39.22:986][992]LogStaticMesh: Built static mesh [26.701353ms] /Game/TopDownSciFi/Decos/Locker_05B.Locker_05B
+[2015.01.28-19.39.23:004][992]LogStaticMesh: Building static mesh Locker_05C...
+[2015.01.28-19.39.23:011][992]LogStaticMesh: Built static mesh [18.925770ms] /Game/TopDownSciFi/Decos/Locker_05C.Locker_05C
+[2015.01.28-19.39.23:023][992]LogStaticMesh: Building static mesh Pillar_01...
+[2015.01.28-19.39.23:025][992]LogStaticMesh: Built static mesh [10.116552ms] /Game/TopDownSciFi/Decos/Pillar_01.Pillar_01
+[2015.01.28-19.39.23:039][992]LogStaticMesh: Building static mesh Pillar_02...
+[2015.01.28-19.39.23:040][992]LogStaticMesh: Built static mesh [11.503430ms] /Game/TopDownSciFi/Decos/Pillar_02.Pillar_02
+[2015.01.28-19.39.23:042][992]LogStaticMesh: Building static mesh Pillar_03...
+[2015.01.28-19.39.23:044][992]LogStaticMesh: Built static mesh [1.726006ms] /Game/TopDownSciFi/Decos/Pillar_03.Pillar_03
+[2015.01.28-19.39.23:094][992]LogStaticMesh: Building static mesh Pillar_04...
+[2015.01.28-19.39.23:095][992]LogStaticMesh: Built static mesh [27.977468ms] /Game/TopDownSciFi/Decos/Pillar_04.Pillar_04
+[2015.01.28-19.39.23:126][992]LogStaticMesh: Building static mesh Pillar_05A...
+[2015.01.28-19.39.23:130][992]LogStaticMesh: Built static mesh [33.489056ms] /Game/TopDownSciFi/Decos/Pillar_05A.Pillar_05A
+[2015.01.28-19.39.23:160][992]LogStaticMesh: Building static mesh Pillar_05B...
+[2015.01.28-19.39.23:162][992]LogStaticMesh: Built static mesh [3.287366ms] /Game/TopDownSciFi/Decos/Pillar_05B.Pillar_05B
+[2015.01.28-19.39.23:209][992]LogStaticMesh: Building static mesh Pillar_06...
+[2015.01.28-19.39.23:212][992]LogStaticMesh: Built static mesh [20.958832ms] /Game/TopDownSciFi/Decos/Pillar_06.Pillar_06
+[2015.01.28-19.39.23:215][992]LogStaticMesh: Building static mesh Pillar_07...
+[2015.01.28-19.39.23:216][992]LogStaticMesh: Built static mesh [1.921871ms] /Game/TopDownSciFi/Decos/Pillar_07.Pillar_07
+[2015.01.28-19.39.23:225][992]LogStaticMesh: Building static mesh Wall_03...
+[2015.01.28-19.39.23:225][992]LogStaticMesh: Built static mesh [0.749675ms] /Game/TopDownSciFi/Walls/Wall_03.Wall_03
+[2015.01.28-19.39.23:295][992]LogStaticMesh: Building static mesh Pillar_09...
+[2015.01.28-19.39.23:297][992]LogStaticMesh: Built static mesh [48.239655ms] /Game/TopDownSciFi/Decos/Pillar_09.Pillar_09
+[2015.01.28-19.39.23:314][992]LogStaticMesh: Building static mesh Pillar_up_01...
+[2015.01.28-19.39.23:315][992]LogStaticMesh: Built static mesh [15.075186ms] /Game/TopDownSciFi/Decos/Pillar_up_01.Pillar_up_01
+[2015.01.28-19.39.23:319][992]LogStaticMesh: Building static mesh Pillar_up_02...
+[2015.01.28-19.39.23:321][992]LogStaticMesh: Built static mesh [2.771189ms] /Game/TopDownSciFi/Decos/Pillar_up_02.Pillar_up_02
+[2015.01.28-19.39.23:356][992]LogStaticMesh: Building static mesh Pillar_up_03...
+[2015.01.28-19.39.23:363][992]LogStaticMesh: Built static mesh [28.035200ms] /Game/TopDownSciFi/Decos/Pillar_up_03.Pillar_up_03
+[2015.01.28-19.39.23:447][992]LogStaticMesh: Building static mesh Pillar_up_04...
+[2015.01.28-19.39.23:456][992]LogStaticMesh: Built static mesh [50.868862ms] /Game/TopDownSciFi/Decos/Pillar_up_04.Pillar_up_04
+[2015.01.28-19.39.23:482][992]LogStaticMesh: Building static mesh Pillar_up_05...
+[2015.01.28-19.39.23:483][992]LogStaticMesh: Built static mesh [8.541080ms] /Game/TopDownSciFi/Decos/Pillar_up_05.Pillar_up_05
+[2015.01.28-19.39.23:501][992]LogStaticMesh: Building static mesh Pipe_01...
+[2015.01.28-19.39.23:504][992]LogStaticMesh: Built static mesh [17.779661ms] /Game/TopDownSciFi/Decos/Pipe_01.Pipe_01
+[2015.01.28-19.39.23:507][992]LogStaticMesh: Building static mesh Pipe_02...
+[2015.01.28-19.39.23:512][992]LogStaticMesh: Built static mesh [5.761337ms] /Game/TopDownSciFi/Decos/Pipe_02.Pipe_02
+[2015.01.28-19.39.23:515][992]LogStaticMesh: Building static mesh Pipe_02B...
+[2015.01.28-19.39.23:528][992]LogStaticMesh: Built static mesh [13.114825ms] /Game/TopDownSciFi/Decos/Pipe_02B.Pipe_02B
+[2015.01.28-19.39.23:534][992]LogStaticMesh: Building static mesh Pipe_02C...
+[2015.01.28-19.39.23:543][992]LogStaticMesh: Built static mesh [9.517838ms] /Game/TopDownSciFi/Decos/Pipe_02C.Pipe_02C
+[2015.01.28-19.39.23:677][992]LogStaticMesh: Building static mesh Stairs_01_barrier...
+[2015.01.28-19.39.23:719][992]LogStaticMesh: Built static mesh [42.342751ms] /Game/TopDownSciFi/Decos/Stairs_01_barrier.Stairs_01_barrier
+[2015.01.28-19.39.23:793][992]LogStaticMesh: Building static mesh Stairs_01_phys...
+[2015.01.28-19.39.23:794][992]LogStaticMesh: Built static mesh [50.192741ms] /Game/TopDownSciFi/Decos/Stairs_01_phys.Stairs_01_phys
+[2015.01.28-19.39.23:796][992]LogStaticMesh: Building static mesh Stairs_01A...
+[2015.01.28-19.39.23:811][992]LogStaticMesh: Built static mesh [15.860784ms] /Game/TopDownSciFi/Decos/Stairs_01A.Stairs_01A
+[2015.01.28-19.39.23:844][992]LogStaticMesh: Building static mesh Stairs_01B...
+[2015.01.28-19.39.23:855][992]LogStaticMesh: Built static mesh [38.539635ms] /Game/TopDownSciFi/Decos/Stairs_01B.Stairs_01B
+[2015.01.28-19.39.23:897][992]LogStaticMesh: Building static mesh Stairs_02_barrier...
+[2015.01.28-19.39.23:906][992]LogStaticMesh: Built static mesh [43.541462ms] /Game/TopDownSciFi/Decos/Stairs_02_barrier.Stairs_02_barrier
+[2015.01.28-19.39.23:946][992]LogStaticMesh: Building static mesh Stairs_02_phys...
+[2015.01.28-19.39.23:947][992]LogStaticMesh: Built static mesh [1.140122ms] /Game/TopDownSciFi/Decos/Stairs_02_phys.Stairs_02_phys
+[2015.01.28-19.39.23:949][992]LogStaticMesh: Building static mesh Stairs_02A...
+[2015.01.28-19.39.23:958][992]LogStaticMesh: Built static mesh [8.926395ms] /Game/TopDownSciFi/Decos/Stairs_02A.Stairs_02A
+[2015.01.28-19.39.24:022][992]LogStaticMesh: Building static mesh Stairs_02B...
+[2015.01.28-19.39.24:030][992]LogStaticMesh: Built static mesh [68.386803ms] /Game/TopDownSciFi/Decos/Stairs_02B.Stairs_02B
+[2015.01.28-19.39.24:037][992]LogStaticMesh: Building static mesh Stand_01A...
+[2015.01.28-19.39.24:071][992]LogStaticMesh: Built static mesh [34.402950ms] /Game/TopDownSciFi/Decos/Stand_01A.Stand_01A
+[2015.01.28-19.39.24:081][992]LogStaticMesh: Building static mesh Stand_01B...
+[2015.01.28-19.39.24:088][992]LogStaticMesh: Built static mesh [7.040019ms] /Game/TopDownSciFi/Decos/Stand_01B.Stand_01B
+[2015.01.28-19.39.24:091][992]LogStaticMesh: Building static mesh Stand_02A...
+[2015.01.28-19.39.24:103][992]LogStaticMesh: Built static mesh [11.361022ms] /Game/TopDownSciFi/Decos/Stand_02A.Stand_02A
+[2015.01.28-19.39.24:132][992]LogStaticMesh: Building static mesh Stand_02B...
+[2015.01.28-19.39.24:137][992]LogStaticMesh: Built static mesh [29.508038ms] /Game/TopDownSciFi/Decos/Stand_02B.Stand_02B
+[2015.01.28-19.39.24:186][992]LogStaticMesh: Building static mesh Surface8x8_01...
+[2015.01.28-19.39.24:192][992]LogStaticMesh: Built static mesh [6.893334ms] /Game/TopDownSciFi/Decos/Surface8x8_01.Surface8x8_01
+[2015.01.28-19.39.24:228][992]LogStaticMesh: Building static mesh Table_01...
+[2015.01.28-19.39.24:246][992]LogStaticMesh: Built static mesh [39.606628ms] /Game/TopDownSciFi/Decos/Table_01.Table_01
+[2015.01.28-19.39.24:313][992]LogStaticMesh: Building static mesh Table_02...
+[2015.01.28-19.39.24:334][992]LogStaticMesh: Built static mesh [60.484634ms] /Game/TopDownSciFi/Decos/Table_02.Table_02
+[2015.01.28-19.39.24:459][992]LogStaticMesh: Building static mesh Table_04...
+[2015.01.28-19.39.24:504][992]LogStaticMesh: Built static mesh [46.165966ms] /Game/TopDownSciFi/Decos/Table_04.Table_04
+[2015.01.28-19.39.24:513][992]LogStaticMesh: Building static mesh Table_05...
+[2015.01.28-19.39.24:558][992]LogStaticMesh: Built static mesh [45.239670ms] /Game/TopDownSciFi/Decos/Table_05.Table_05
+[2015.01.28-19.39.24:577][992]LogStaticMesh: Building static mesh Tactical_Panel...
+[2015.01.28-19.39.24:588][992]LogStaticMesh: Built static mesh [25.333292ms] /Game/TopDownSciFi/Decos/Tactical_Panel.Tactical_Panel
+[2015.01.28-19.39.24:619][992]LogStaticMesh: Building static mesh Vents_01...
+[2015.01.28-19.39.24:621][992]LogStaticMesh: Built static mesh [1.949241ms] /Game/TopDownSciFi/Decos/Vents_01.Vents_01
+[2015.01.28-19.39.24:662][992]LogStaticMesh: Building static mesh Vents_02...
+[2015.01.28-19.39.24:664][992]LogStaticMesh: Built static mesh [1.924437ms] /Game/TopDownSciFi/Decos/Vents_02.Vents_02
+[2015.01.28-19.39.25:394][992]LogTexture:Display: Building textures: Grid1 (AutoDXT)
+[2015.01.28-19.39.31:018][992]LogTexture:Display: Building textures: Grid1_nmp (BC5)
+[2015.01.28-19.39.31:512][992]LogStaticMesh: Building static mesh Barrier_01...
+[2015.01.28-19.39.31:513][992]LogStaticMesh: Built static mesh [50.846195ms] /Game/TopDownSciFi/Walls/Barrier_01.Barrier_01
+[2015.01.28-19.39.31:541][992]LogStaticMesh: Building static mesh Barrier_02...
+[2015.01.28-19.39.31:543][992]LogStaticMesh: Built static mesh [29.209108ms] /Game/TopDownSciFi/Walls/Barrier_02.Barrier_02
+[2015.01.28-19.39.31:603][992]LogStaticMesh: Building static mesh Barrier_03...
+[2015.01.28-19.39.31:605][992]LogStaticMesh: Built static mesh [60.996105ms] /Game/TopDownSciFi/Walls/Barrier_03.Barrier_03
+[2015.01.28-19.39.31:701][992]LogStaticMesh: Building static mesh Barrier_04...
+[2015.01.28-19.39.31:703][992]LogStaticMesh: Built static mesh [2.254158ms] /Game/TopDownSciFi/Walls/Barrier_04.Barrier_04
+[2015.01.28-19.39.31:704][992]LogStaticMesh: Building static mesh Barrier_05...
+[2015.01.28-19.39.31:705][992]LogStaticMesh: Built static mesh [1.187592ms] /Game/TopDownSciFi/Walls/Barrier_05.Barrier_05
+[2015.01.28-19.39.31:706][992]LogStaticMesh: Building static mesh Doors_01A...
+[2015.01.28-19.39.31:706][992]LogStaticMesh: Built static mesh [0.288238ms] /Game/TopDownSciFi/Walls/Doors_01A.Doors_01A
+[2015.01.28-19.39.31:755][992]LogStaticMesh: Building static mesh Doors_01B...
+[2015.01.28-19.39.31:755][992]LogStaticMesh: Built static mesh [0.381466ms] /Game/TopDownSciFi/Walls/Doors_01B.Doors_01B
+[2015.01.28-19.39.31:787][992]LogStaticMesh: Building static mesh Doors_02A...
+[2015.01.28-19.39.31:788][992]LogStaticMesh: Built static mesh [0.515321ms] /Game/TopDownSciFi/Walls/Doors_02A.Doors_02A
+[2015.01.28-19.39.31:829][992]LogStaticMesh: Building static mesh Doors_02B...
+[2015.01.28-19.39.31:830][992]LogStaticMesh: Built static mesh [1.558794ms] /Game/TopDownSciFi/Walls/Doors_02B.Doors_02B
+[2015.01.28-19.39.31:854][992]LogStaticMesh: Building static mesh Gate_01...
+[2015.01.28-19.39.31:861][992]LogStaticMesh: Built static mesh [28.500916ms] /Game/TopDownSciFi/Walls/Gate_01.Gate_01
+[2015.01.28-19.39.31:881][992]LogStaticMesh: Building static mesh Gate_02...
+[2015.01.28-19.39.31:890][992]LogStaticMesh: Built static mesh [23.244635ms] /Game/TopDownSciFi/Walls/Gate_02.Gate_02
+[2015.01.28-19.39.31:918][992]LogStaticMesh: Building static mesh Gate_round_01...
+[2015.01.28-19.39.31:944][992]LogStaticMesh: Built static mesh [26.465715ms] /Game/TopDownSciFi/Walls/Gate_round_01.Gate_round_01
+[2015.01.28-19.39.32:040][992]LogStaticMesh: Building static mesh Gate_round_02...
+[2015.01.28-19.39.32:063][992]LogStaticMesh: Built static mesh [22.925606ms] /Game/TopDownSciFi/Walls/Gate_round_02.Gate_round_02
+[2015.01.28-19.39.32:068][992]LogMaterial: Missing cached shader map for material M_Grid, compiling.
+[2015.01.28-19.39.34:370][992]LogStaticMesh: Building static mesh Grid_01A...
+[2015.01.28-19.39.34:373][992]LogStaticMesh: Built static mesh [270.372314ms] /Game/TopDownSciFi/Walls/Grid_01A.Grid_01A
+[2015.01.28-19.39.35:031][992]LogStaticMesh: Building static mesh Grid_01B...
+[2015.01.28-19.39.35:034][992]LogStaticMesh: Built static mesh [75.898094ms] /Game/TopDownSciFi/Walls/Grid_01B.Grid_01B
+[2015.01.28-19.39.35:037][992]LogStaticMesh: Building static mesh Grid_01C...
+[2015.01.28-19.39.35:040][992]LogStaticMesh: Built static mesh [3.423788ms] /Game/TopDownSciFi/Walls/Grid_01C.Grid_01C
+[2015.01.28-19.39.35:043][992]LogStaticMesh: Building static mesh Grid_02A...
+[2015.01.28-19.39.35:048][992]LogStaticMesh: Built static mesh [5.212659ms] /Game/TopDownSciFi/Walls/Grid_02A.Grid_02A
+[2015.01.28-19.39.35:070][992]LogStaticMesh: Building static mesh Grid_02B...
+[2015.01.28-19.39.35:072][992]LogStaticMesh: Built static mesh [1.548958ms] /Game/TopDownSciFi/Walls/Grid_02B.Grid_02B
+[2015.01.28-19.39.35:073][992]LogStaticMesh: Building static mesh Grid_02C...
+[2015.01.28-19.39.35:074][992]LogStaticMesh: Built static mesh [1.420235ms] /Game/TopDownSciFi/Walls/Grid_02C.Grid_02C
+[2015.01.28-19.39.35:112][992]LogStaticMesh: Building static mesh Grid_03A...
+[2015.01.28-19.39.35:113][992]LogStaticMesh: Built static mesh [38.060665ms] /Game/TopDownSciFi/Walls/Grid_03A.Grid_03A
+[2015.01.28-19.39.35:151][992]LogStaticMesh: Building static mesh Grid_03B...
+[2015.01.28-19.39.35:153][992]LogStaticMesh: Built static mesh [1.253022ms] /Game/TopDownSciFi/Walls/Grid_03B.Grid_03B
+[2015.01.28-19.39.35:158][992]LogStaticMesh: Building static mesh Grid_03C...
+[2015.01.28-19.39.35:159][992]LogStaticMesh: Built static mesh [1.113180ms] /Game/TopDownSciFi/Walls/Grid_03C.Grid_03C
+[2015.01.28-19.39.35:160][992]LogStaticMesh: Building static mesh Grid_04A...
+[2015.01.28-19.39.35:162][992]LogStaticMesh: Built static mesh [1.856868ms] /Game/TopDownSciFi/Walls/Grid_04A.Grid_04A
+[2015.01.28-19.39.35:255][992]LogStaticMesh: Building static mesh Grid_04B...
+[2015.01.28-19.39.35:256][992]LogStaticMesh: Built static mesh [17.183086ms] /Game/TopDownSciFi/Walls/Grid_04B.Grid_04B
+[2015.01.28-19.39.35:294][992]LogStaticMesh: Building static mesh Grid_04C...
+[2015.01.28-19.39.35:295][992]LogStaticMesh: Built static mesh [1.066993ms] /Game/TopDownSciFi/Walls/Grid_04C.Grid_04C
+[2015.01.28-19.39.35:296][992]LogStaticMesh: Building static mesh Grid_05A...
+[2015.01.28-19.39.35:298][992]LogStaticMesh: Built static mesh [1.989440ms] /Game/TopDownSciFi/Walls/Grid_05A.Grid_05A
+[2015.01.28-19.39.35:398][992]LogStaticMesh: Building static mesh Grid_05B...
+[2015.01.28-19.39.35:399][992]LogStaticMesh: Built static mesh [84.516151ms] /Game/TopDownSciFi/Walls/Grid_05B.Grid_05B
+[2015.01.28-19.39.35:432][992]LogStaticMesh: Building static mesh Grid_05C...
+[2015.01.28-19.39.35:433][992]LogStaticMesh: Built static mesh [1.057585ms] /Game/TopDownSciFi/Walls/Grid_05C.Grid_05C
+[2015.01.28-19.39.35:434][992]LogStaticMesh: Building static mesh Grid_06A...
+[2015.01.28-19.39.35:436][992]LogStaticMesh: Built static mesh [2.326431ms] /Game/TopDownSciFi/Walls/Grid_06A.Grid_06A
+[2015.01.28-19.39.35:454][992]LogStaticMesh: Building static mesh Grid_06B...
+[2015.01.28-19.39.35:456][992]LogStaticMesh: Built static mesh [2.094215ms] /Game/TopDownSciFi/Walls/Grid_06B.Grid_06B
+[2015.01.28-19.39.35:457][992]LogStaticMesh: Building static mesh Grid_06C...
+[2015.01.28-19.39.35:459][992]LogStaticMesh: Built static mesh [2.110466ms] /Game/TopDownSciFi/Walls/Grid_06C.Grid_06C
+[2015.01.28-19.39.35:566][992]LogStaticMesh: Building static mesh Wall_01...
+[2015.01.28-19.39.35:566][992]LogStaticMesh: Built static mesh [17.696697ms] /Game/TopDownSciFi/Walls/Wall_01.Wall_01
+[2015.01.28-19.39.35:567][992]LogStaticMesh: Building static mesh Wall_02...
+[2015.01.28-19.39.35:567][992]LogStaticMesh: Built static mesh [0.541408ms] /Game/TopDownSciFi/Walls/Wall_02.Wall_02
+[2015.01.28-19.39.35:612][992]LogStaticMesh: Building static mesh Wall_04...
+[2015.01.28-19.39.35:612][992]LogStaticMesh: Built static mesh [44.240673ms] /Game/TopDownSciFi/Walls/Wall_04.Wall_04
+[2015.01.28-19.39.35:636][992]LogStaticMesh: Building static mesh Wall_07...
+[2015.01.28-19.39.35:636][992]LogStaticMesh: Built static mesh [0.611971ms] /Game/TopDownSciFi/Walls/Wall_07.Wall_07
+[2015.01.28-19.39.35:690][992]LogStaticMesh: Building static mesh Wall_05...
+[2015.01.28-19.39.35:691][992]LogStaticMesh: Built static mesh [0.640196ms] /Game/TopDownSciFi/Walls/Wall_05.Wall_05
+[2015.01.28-19.39.35:755][992]LogStaticMesh: Building static mesh Wall_06...
+[2015.01.28-19.39.35:756][992]LogStaticMesh: Built static mesh [0.605984ms] /Game/TopDownSciFi/Walls/Wall_06.Wall_06
+[2015.01.28-19.39.35:757][992]LogStaticMesh: Building static mesh Wall_09B...
+[2015.01.28-19.39.35:758][992]LogStaticMesh: Built static mesh [1.582315ms] /Game/TopDownSciFi/Walls/Wall_09B.Wall_09B
+[2015.01.28-19.39.35:760][992]LogMaterial: Missing cached shader map for material M_Windows, compiling.
+[2015.01.28-19.39.35:817][992]LogStaticMesh: Building static mesh Wall_09A...
+[2015.01.28-19.39.35:818][992]LogStaticMesh: Built static mesh [17.609028ms] /Game/TopDownSciFi/Walls/Wall_09A.Wall_09A
+[2015.01.28-19.39.35:834][992]LogStaticMesh: Building static mesh Wall_el_02...
+[2015.01.28-19.39.35:835][992]LogStaticMesh: Built static mesh [14.783526ms] /Game/TopDownSciFi/Walls/Wall_el_02.Wall_el_02
+[2015.01.28-19.39.35:836][992]LogStaticMesh: Building static mesh Wall_10...
+[2015.01.28-19.39.35:837][992]LogStaticMesh: Built static mesh [1.565637ms] /Game/TopDownSciFi/Walls/Wall_10.Wall_10
+[2015.01.28-19.39.35:905][992]LogStaticMesh: Building static mesh Wall_09C...
+[2015.01.28-19.39.35:907][992]LogStaticMesh: Built static mesh [7.415926ms] /Game/TopDownSciFi/Walls/Wall_09C.Wall_09C
+[2015.01.28-19.39.35:919][992]LogStaticMesh: Building static mesh Wall_10_column_bench...
+[2015.01.28-19.39.35:922][992]LogStaticMesh: Built static mesh [13.801636ms] /Game/TopDownSciFi/Walls/Wall_10_column_bench.Wall_10_column_bench
+[2015.01.28-19.39.35:937][992]LogStaticMesh: Building static mesh Wall_10_column...
+[2015.01.28-19.39.35:938][992]LogStaticMesh: Built static mesh [0.919881ms] /Game/TopDownSciFi/Walls/Wall_10_column.Wall_10_column
+[2015.01.28-19.39.35:996][992]LogStaticMesh: Building static mesh Wall_10_column_up...
+[2015.01.28-19.39.35:997][992]LogStaticMesh: Built static mesh [58.995975ms] /Game/TopDownSciFi/Walls/Wall_10_column_up.Wall_10_column_up
+[2015.01.28-19.39.36:018][992]LogStaticMesh: Building static mesh Wall_el12A...
+[2015.01.28-19.39.36:019][992]LogStaticMesh: Built static mesh [20.632532ms] /Game/TopDownSciFi/Walls/Wall_el12A.Wall_el12A
+[2015.01.28-19.39.36:162][992]LogStaticMesh: Building static mesh Wall_el12B...
+[2015.01.28-19.39.36:162][992]LogStaticMesh: Built static mesh [4.919289ms] /Game/TopDownSciFi/Walls/Wall_el12B.Wall_el12B
+[2015.01.28-19.39.36:163][992]LogStaticMesh: Building static mesh Wall_el_01...
+[2015.01.28-19.39.36:164][992]LogStaticMesh: Built static mesh [1.332138ms] /Game/TopDownSciFi/Walls/Wall_el_01.Wall_el_01
+[2015.01.28-19.39.36:284][992]LogStaticMesh: Building static mesh Wall_el_04...
+[2015.01.28-19.39.36:284][992]LogStaticMesh: Built static mesh [0.762932ms] /Game/TopDownSciFi/Walls/Wall_el_04.Wall_el_04
+[2015.01.28-19.39.36:285][992]LogStaticMesh: Building static mesh Wall_el_03...
+[2015.01.28-19.39.36:287][992]LogStaticMesh: Built static mesh [1.917595ms] /Game/TopDownSciFi/Walls/Wall_el_03.Wall_el_03
+[2015.01.28-19.39.36:332][992]LogStaticMesh: Building static mesh Wall_el_05...
+[2015.01.28-19.39.36:333][992]LogStaticMesh: Built static mesh [0.972910ms] /Game/TopDownSciFi/Walls/Wall_el_05.Wall_el_05
+[2015.01.28-19.39.36:333][992]LogStaticMesh: Building static mesh Wall_el_04B...
+[2015.01.28-19.39.36:334][992]LogStaticMesh: Built static mesh [0.736846ms] /Game/TopDownSciFi/Walls/Wall_el_04B.Wall_el_04B
+[2015.01.28-19.39.36:420][992]LogStaticMesh: Building static mesh Wall_el_10...
+[2015.01.28-19.39.36:421][992]LogStaticMesh: Built static mesh [86.283638ms] /Game/TopDownSciFi/Walls/Wall_el_10.Wall_el_10
+[2015.01.28-19.39.36:461][992]LogStaticMesh: Building static mesh Wall_el_07...
+[2015.01.28-19.39.36:462][992]LogStaticMesh: Built static mesh [1.566064ms] /Game/TopDownSciFi/Walls/Wall_el_07.Wall_el_07
+[2015.01.28-19.39.36:483][992]LogStaticMesh: Building static mesh Wall_el_06...
+[2015.01.28-19.39.36:484][992]LogStaticMesh: Built static mesh [21.238089ms] /Game/TopDownSciFi/Walls/Wall_el_06.Wall_el_06
+[2015.01.28-19.39.36:486][992]LogStaticMesh: Building static mesh Wall_el_08...
+[2015.01.28-19.39.36:487][992]LogStaticMesh: Built static mesh [0.973338ms] /Game/TopDownSciFi/Walls/Wall_el_08.Wall_el_08
+[2015.01.28-19.39.36:532][992]LogStaticMesh: Building static mesh Wall_el_09...
+[2015.01.28-19.39.36:533][992]LogStaticMesh: Built static mesh [1.328289ms] /Game/TopDownSciFi/Walls/Wall_el_09.Wall_el_09
+[2015.01.28-19.39.36:534][992]LogStaticMesh: Building static mesh Wall_el_11B...
+[2015.01.28-19.39.36:535][992]LogStaticMesh: Built static mesh [1.171341ms] /Game/TopDownSciFi/Walls/Wall_el_11B.Wall_el_11B
+[2015.01.28-19.39.36:536][992]LogStaticMesh: Building static mesh Wall_el_11A...
+[2015.01.28-19.39.36:537][992]LogStaticMesh: Built static mesh [1.064428ms] /Game/TopDownSciFi/Walls/Wall_el_11A.Wall_el_11A
+[2015.01.28-19.39.36:538][992]LogStaticMesh: Building static mesh Wall_round_01...
+[2015.01.28-19.39.36:539][992]LogStaticMesh: Built static mesh [1.036630ms] /Game/TopDownSciFi/Walls/Wall_round_01.Wall_round_01
+[2015.01.28-19.39.36:590][992]LogStaticMesh: Building static mesh Wall_el_11C...
+[2015.01.28-19.39.36:591][992]LogStaticMesh: Built static mesh [1.199138ms] /Game/TopDownSciFi/Walls/Wall_el_11C.Wall_el_11C
+[2015.01.28-19.39.36:592][992]LogStaticMesh: Building static mesh Wall_el_11D...
+[2015.01.28-19.39.36:593][992]LogStaticMesh: Built static mesh [1.066566ms] /Game/TopDownSciFi/Walls/Wall_el_11D.Wall_el_11D
+[2015.01.28-19.39.36:614][992]LogStaticMesh: Building static mesh Wall_round_02...
+[2015.01.28-19.39.36:615][992]LogStaticMesh: Built static mesh [0.772768ms] /Game/TopDownSciFi/Walls/Wall_round_02.Wall_round_02
+[2015.01.28-19.39.36:617][992]LogStaticMesh: Building static mesh Wall_round_03...
+[2015.01.28-19.39.36:619][992]LogStaticMesh: Built static mesh [2.186161ms] /Game/TopDownSciFi/Walls/Wall_round_03.Wall_round_03
+[2015.01.28-19.39.36:621][992]LogStaticMesh: Building static mesh Wall_round_el_01...
+[2015.01.28-19.39.36:623][992]LogStaticMesh: Built static mesh [1.719164ms] /Game/TopDownSciFi/Walls/Wall_round_el_01.Wall_round_el_01
+[2015.01.28-19.39.36:625][992]LogStaticMesh: Building static mesh Wall_round_el_02...
+[2015.01.28-19.39.36:627][992]LogStaticMesh: Built static mesh [2.765630ms] /Game/TopDownSciFi/Walls/Wall_round_el_02.Wall_round_el_02
+[2015.01.28-19.39.36:826][992]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.01.28-19.39.36:851][992]LogStaticMesh: Building static mesh Wall_round_el_03...
+[2015.01.28-19.39.36:855][992]LogStaticMesh: Built static mesh [3.956215ms] /Game/TopDownSciFi/Walls/Wall_round_el_03.Wall_round_el_03
+[2015.01.28-19.39.36:858][992]LogStaticMesh: Building static mesh Wall_round_el_04A...
+[2015.01.28-19.39.36:861][992]LogStaticMesh: Built static mesh [3.404116ms] /Game/TopDownSciFi/Walls/Wall_round_el_04A.Wall_round_el_04A
+[2015.01.28-19.39.37:157][992]LogStaticMesh: Building static mesh Wall_round_el_04B...
+[2015.01.28-19.39.37:159][992]LogStaticMesh: Built static mesh [296.845734ms] /Game/TopDownSciFi/Walls/Wall_round_el_04B.Wall_round_el_04B
+[2015.01.28-19.39.37:163][992]LogStaticMesh: Building static mesh Wall_round_Pillar_01...
+[2015.01.28-19.39.37:165][992]LogStaticMesh: Built static mesh [1.597283ms] /Game/TopDownSciFi/Walls/Wall_round_Pillar_01.Wall_round_Pillar_01
+[2015.01.28-19.39.37:166][992]LogStaticMesh: Building static mesh Wall_up_01...
+[2015.01.28-19.39.37:166][992]LogStaticMesh: Built static mesh [0.285244ms] /Game/TopDownSciFi/Walls/Wall_up_01.Wall_up_01
+[2015.01.28-19.39.37:233][992]LogStaticMesh: Building static mesh Wall_up_02...
+[2015.01.28-19.39.37:234][992]LogStaticMesh: Built static mesh [7.847000ms] /Game/TopDownSciFi/Walls/Wall_up_02.Wall_up_02
+[2015.01.28-19.39.37:259][992]LogStaticMesh: Building static mesh Wall_up_03...
+[2015.01.28-19.39.37:260][992]LogStaticMesh: Built static mesh [1.474119ms] /Game/TopDownSciFi/Walls/Wall_up_03.Wall_up_03
+[2015.01.28-19.39.37:331][992]LogStaticMesh: Building static mesh Wall_up_04...
+[2015.01.28-19.39.37:331][992]LogStaticMesh: Built static mesh [39.625446ms] /Game/TopDownSciFi/Walls/Wall_up_04.Wall_up_04
+[2015.01.28-19.39.37:343][992]LogStaticMesh: Building static mesh Wall_up_05...
+[2015.01.28-19.39.37:343][992]LogStaticMesh: Built static mesh [11.666366ms] /Game/TopDownSciFi/Walls/Wall_up_05.Wall_up_05
+[2015.01.28-19.39.37:344][992]LogStaticMesh: Building static mesh Wall_up_06...
+[2015.01.28-19.39.37:346][992]LogStaticMesh: Built static mesh [1.445894ms] /Game/TopDownSciFi/Walls/Wall_up_06.Wall_up_06
+[2015.01.28-19.39.37:347][992]LogStaticMesh: Building static mesh Wall_up_07...
+[2015.01.28-19.39.37:348][992]LogStaticMesh: Built static mesh [1.592579ms] /Game/TopDownSciFi/Walls/Wall_up_07.Wall_up_07
+[2015.01.28-19.39.37:350][992]LogStaticMesh: Building static mesh Window_01...
+[2015.01.28-19.39.37:351][992]LogStaticMesh: Built static mesh [1.312039ms] /Game/TopDownSciFi/Walls/Window_01.Window_01
+[2015.01.28-19.39.37:363][992]LogStaticMesh: Building static mesh Window_02...
+[2015.01.28-19.39.37:364][992]LogStaticMesh: Built static mesh [11.608205ms] /Game/TopDownSciFi/Walls/Window_02.Window_02
+[2015.01.28-19.39.37:365][992]LogStaticMesh: Building static mesh Window_03...
+[2015.01.28-19.39.37:367][992]LogStaticMesh: Built static mesh [1.853874ms] /Game/TopDownSciFi/Walls/Window_03.Window_03
+[2015.01.28-19.39.37:368][992]LogStaticMesh: Building static mesh Window_04...
+[2015.01.28-19.39.37:370][992]LogStaticMesh: Built static mesh [1.676399ms] /Game/TopDownSciFi/Walls/Window_04.Window_04
+[2015.01.28-19.39.37:446][992]LogStaticMesh: Building static mesh Window_05...
+[2015.01.28-19.39.37:447][992]LogStaticMesh: Built static mesh [76.106361ms] /Game/TopDownSciFi/Walls/Window_05.Window_05
+[2015.01.28-19.39.37:475][992]LogStaticMesh: Building static mesh Window_06...
+[2015.01.28-19.39.37:476][992]LogStaticMesh: Built static mesh [0.805270ms] /Game/TopDownSciFi/Walls/Window_06.Window_06
+[2015.01.28-19.39.37:578][992]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.01.28-19.39.38:965][992]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.01.28-19.39.41:588][992]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.01.28-19.39.42:898][992]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.01.28-19.39.43:633][992]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.01.28-19.39.43:646][992]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.01.28-19.39.43:966][992]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.01.28-19.39.44:734][992]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.01.28-19.39.45:255][992]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.01.28-19.39.46:167][992]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.01.28-19.39.46:851][992]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.01.28-19.39.47:405][992]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.01.28-19.39.47:655][992]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.01.28-19.39.47:863][992]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.01.28-19.39.47:936][992]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.01.28-19.39.48:184][992]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.01.28-19.39.48:952][992]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.01.28-19.39.49:619][992]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.01.28-19.39.50:251][992]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.01.28-19.39.50:670][992]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.01.28-19.39.50:947][992]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.01.28-19.39.51:166][992]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.01.28-19.39.51:861][992]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.01.28-19.39.54:126][992]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.01.28-19.39.56:483][992]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.01.28-19.39.56:825][992]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.01.28-19.39.56:979][992]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.01.28-19.39.57:114][992]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.01.28-19.39.57:419][992]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.01.28-19.39.57:614][992]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.01.28-19.39.57:774][992]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.01.28-19.39.57:940][992]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.01.28-19.39.57:975][992]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.01.28-19.39.58:022][992]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.01.28-19.39.58:465][992]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.01.28-19.39.58:781][992]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.01.28-19.39.58:969][992]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2015.01.28-19.39.58:980][992]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.01.28-19.39.59:192][992]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.01.28-19.39.59:308][992]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.01.28-19.39.59:441][992]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2015.01.28-19.39.59:555][992]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2015.01.28-19.39.59:577][992]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2015.01.28-19.39.59:647][992]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.01.28-19.39.59:701][992]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.01.28-19.39.59:833][992]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.01.28-19.39.59:858][992]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.01.28-19.39.59:895][992]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.01.28-19.39.59:901][992]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.01.28-19.39.59:903][992]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.01.28-19.39.59:910][992]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.01.28-19.39.59:934][992]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.01.28-19.39.59:980][992]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.01.28-19.40.00:010][992]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.01.28-19.40.00:039][992]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.01.28-19.40.00:070][992]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.01.28-19.40.00:095][992]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.01.28-19.40.00:102][992]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.01.28-19.40.00:103][992]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.01.28-19.40.00:502][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:503][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:503][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:504][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:504][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:505][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:505][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:505][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:506][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:506][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:507][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:507][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:508][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:509][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:509][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:510][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:510][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:511][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:511][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:512][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.00:512][992]LoadErrors:Error: Error Failed import for StaticMesh
+[2015.01.28-19.40.02:948][992]LogStaticMesh: Building static mesh Wall_10_up...
+[2015.01.28-19.40.02:950][992]LogStaticMesh: Built static mesh [2.498347ms] /Game/TopDownSciFi/Walls/Wall_10_up.Wall_10_up
+[2015.01.28-19.40.03:010][992]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.01.28-19.40.03:108][992]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.01.28-19.40.03:125][992]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.01.28-19.40.03:196][992]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.01.28-19.40.03:713][992]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.01.28-19.40.04:381][992]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.01.28-19.40.05:359][992]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.01.28-19.40.06:187][992]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.01.28-19.40.06:530][992]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.01.28-19.40.06:825][992]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.01.28-19.40.06:998][992]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.01.28-19.40.07:240][992]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.01.28-19.40.07:463][992]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.01.28-19.40.08:053][992]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2015.01.28-19.40.09:081][992]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.01.28-19.40.09:750][992]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2015.01.28-19.40.09:955][992]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.01.28-19.40.10:835][992]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.01.28-19.40.11:740][992]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.01.28-19.40.12:649][992]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.01.28-19.40.13:667][992]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.01.28-19.40.14:647][992]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.01.28-19.40.15:513][992]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.01.28-19.40.16:123][992]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.01.28-19.40.16:185][992]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.01.28-19.40.16:198][992]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.01.28-19.40.16:229][992]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.01.28-19.40.16:379][992]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.01.28-19.40.16:851][992]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.01.28-19.40.18:062][992]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.01.28-19.40.18:464][992]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.01.28-19.40.18:705][992]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.01.28-19.40.18:880][992]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.01.28-19.40.18:969][992]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.01.28-19.40.19:082][992]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.01.28-19.40.19:467][992]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2015.01.28-19.40.19:903][992]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2015.01.28-19.40.20:287][992]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.01.28-19.40.20:687][992]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2015.01.28-19.40.20:896][992]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.01.28-19.40.21:399][992]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.01.28-19.40.21:893][992]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.01.28-19.40.22:393][992]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.01.28-19.40.23:000][992]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.01.28-19.40.23:518][992]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.01.28-19.40.24:080][992]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.01.28-19.40.24:467][992]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2015.01.28-19.40.24:556][992]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2015.01.28-19.40.24:563][992]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2015.01.28-19.40.24:595][992]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2015.01.28-19.40.24:610][992]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.01.28-19.40.24:858][992]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2015.01.28-19.40.25:273][992]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2015.01.28-19.40.25:823][992]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2015.01.28-19.40.26:364][992]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2015.01.28-19.40.26:878][992]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2015.01.28-19.40.26:990][992]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2015.01.28-19.40.27:192][992]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2015.01.28-19.40.28:588][992]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2015.01.28-19.40.28:861][992]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2015.01.28-19.40.28:879][992]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.01.28-19.40.29:117][992]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2015.01.28-19.40.29:850][992]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.01.28-19.40.30:143][992]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.01.28-19.40.30:892][992]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.01.28-19.40.31:268][992]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.01.28-19.40.31:611][992]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2015.01.28-19.40.32:012][992]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2015.01.28-19.40.32:399][992]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2015.01.28-19.40.32:700][992]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.01.28-19.40.32:859][992]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.01.28-19.40.33:024][992]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.01.28-19.40.33:178][992]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.01.28-19.40.33:315][992]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.01.28-19.40.33:345][992]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2015.01.28-19.40.33:384][992]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2015.01.28-19.40.33:413][992]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2015.01.28-19.40.33:520][992]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2015.01.28-19.40.33:624][992]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2015.01.28-19.40.33:762][992]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2015.01.28-19.40.33:790][992]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2015.01.28-19.40.33:815][992]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2015.01.28-19.40.33:822][992]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2015.01.28-19.40.33:828][992]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2015.01.28-19.40.33:833][992]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2015.01.28-19.40.33:836][992]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2015.01.28-19.40.33:842][992]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2015.01.28-19.40.33:844][992]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2015.01.28-19.40.33:844][992]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2015.01.28-19.40.33:845][992]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2015.01.28-19.40.36:158][992]LogStaticMesh: Building static mesh Wall_08...
+[2015.01.28-19.40.36:160][992]LogStaticMesh: Built static mesh [414.607178ms] /Game/TopDownSciFi/Walls/Wall_08.Wall_08
+[2015.01.28-19.41.05:604][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownInteriors'
+[2015.01.28-19.41.18:060][300]LogStaticMesh: Building static mesh SM_Torch1...
+[2015.01.28-19.41.18:066][300]LogStaticMesh: Built static mesh [6.362617ms] /Game/TopDownInteriors/Deco/SM_Torch1.SM_Torch1
+[2015.01.28-19.41.20:370][300]LogTexture:Display: Building textures: T_BrickBack_D (AutoDXT)
+[2015.01.28-19.41.22:157][300]LogTexture:Display: Building textures: T_BrickBack_N (BC5)
+[2015.01.28-19.41.22:556][300]LogMaterial: Missing cached shader map for material M_BrickBack, compiling.
+[2015.01.28-19.41.23:149][300]LogMaterial: Missing cached shader map for material T_Addons1_Alpha, compiling.
+[2015.01.28-19.41.31:114][301]LogSavePackage: Save=401.973877ms
+[2015.01.28-19.41.31:115][301]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map_Auto124F7C52A4CD92765CDD4ED95B2EA1321.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.01.28-19.41.31:136][301]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 3.152
+[2015.01.28-19.41.31:136][301]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.152
+[2015.01.28-19.41.35:839][410]LogSavePackage: Save=71.877304ms
+[2015.01.28-19.41.35:839][410]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map1C2CEE194541131878BDFCBA04BE2417.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Content/Maps/Example_Map.umap'
+[2015.01.28-19.41.36:659][410]LogFileHelpers: Saving map 'Example_Map' took 1.261
+[2015.01.28-19.42.01:068][411]Cmd: QUIT_EDITOR
+[2015.01.28-19.42.03:747][411]LogExit: Preparing to exit.
+[2015.01.28-19.42.06:124][411]LogExit: Editor shut down
+[2015.01.28-19.42.06:124][411]LogExit: Transaction tracking system shut down
+[2015.01.28-19.42.06:137][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C0C1C540
+[2015.01.28-19.42.06:137][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C779F560
+[2015.01.28-19.42.06:137][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036C7867880
+[2015.01.28-19.42.08:303][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036BEC42AC0
+[2015.01.28-19.42.08:303][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000036AFC99580
+[2015.01.28-19.42.08:303][411]LogExit: Object subsystem successfully closed.
+[2015.01.28-19.42.09:807][411]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.28-19.42.09:807][411]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.28-19.42.09:807][411]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.28-19.42.09:807][411]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.28-19.42.09:808][411]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.28-19.42.09:808][411]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.28-19.42.09:809][411]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.28-19.42.09:811][411]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.28-19.42.09:828][411]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.28-19.42.09:924][411]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.28-19.42.09:953][411]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.28-19.42.09:954][411]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.28-19.42.10:148][411]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.28-19.42.10:149][411]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.28-19.42.10:149][411]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.28-19.42.10:149][411]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.28-19.42.10:149][411]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.28-19.42.10:150][411]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.28-19.42.10:150][411]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.28-19.42.10:152][411]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.28-19.42.10:152][411]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.28-19.42.10:153][411]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.28-19.42.10:153][411]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.28-19.42.10:154][411]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.28-19.42.10:174][411]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.28-19.42.10:205][411]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.28-19.42.10:206][411]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.28-19.42.10:206][411]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.28-19.42.10:335][411]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.28-19.42.10:337][411]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.28-19.42.10:369][411]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.28-19.42.10:451][411]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.28-19.42.10:451][411]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.28-19.42.10:451][411]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.28-19.42.10:452][411]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.28-19.42.10:633][411]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.28-19.42.10:680][411]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.28-19.42.10:783][411]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.28-19.42.10:802][411]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.28-19.42.10:804][411]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.28-19.42.10:804][411]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.28-19.42.10:804][411]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.28-19.42.10:854][411]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.28-19.42.10:854][411]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.28-19.42.10:855][411]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.28-19.42.10:855][411]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.28-19.42.10:872][411]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.28-19.42.10:872][411]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.28-19.42.10:873][411]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.28-19.42.10:873][411]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.28-19.42.10:873][411]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.28-19.42.10:885][411]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.28-19.42.10:909][411]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.28-19.42.11:071][411]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.28-19.42.11:095][411]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.28-19.42.11:095][411]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.28-19.42.11:095][411]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.28-19.42.11:095][411]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.28-19.42.11:095][411]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.28-19.42.11:095][411]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.28-19.42.11:306][411]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.28-19.42.11:308][411]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.28-19.42.11:308][411]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.28-19.42.11:308][411]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.28-19.42.11:308][411]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.28-19.42.11:309][411]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.28-19.42.11:412][411]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.28-19.42.11:413][411]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.28-19.42.11:414][411]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.28-19.42.11:414][411]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.28-19.42.11:525][411]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.28-19.42.11:525][411]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.28-19.42.11:526][411]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.28-19.42.11:527][411]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.28-19.42.11:528][411]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.28-19.42.11:528][411]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.28-19.42.11:602][411]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.28-19.42.11:602][411]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.28-19.42.11:602][411]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.28-19.42.11:602][411]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.28-19.42.11:602][411]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.28-19.42.11:602][411]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.28-19.42.11:875][411]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.28-19.42.11:888][411]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.28-19.42.11:989][411]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.28-19.42.12:059][411]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.28-19.42.12:059][411]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.28-19.42.12:110][411]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.28-19.42.12:110][411]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.28-19.42.12:110][411]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.28-19.42.12:110][411]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.28-19.42.12:111][411]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.28-19.42.12:529][411]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.28-19.42.12:530][411]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.28-19.42.12:556][411]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.28-19.42.12:556][411]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.28-19.42.12:556][411]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.28-19.42.12:581][411]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.28-19.42.12:873][411]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.28-19.42.12:895][411]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.28-19.42.12:928][411]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.28-19.42.12:928][411]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.28-19.42.12:942][411]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.28-19.42.12:987][411]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.28-19.42.13:006][411]LogDerivedDataCache: Shutdown
+[2015.01.28-19.42.13:006][411]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.28-19.42.13:007][411]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.28-19.42.13:008][411]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.28-19.42.13:168][411]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.28-19.42.13:168][411]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.28-19.42.13:169][411]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.28-19.42.13:169][411]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.28-19.42.13:169][411]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.28-19.42.13:203][411]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.28-19.42.13:204][411]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.28-19.42.13:249][411]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.28-19.42.13:249][411]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.28-19.42.13:250][411]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.28-19.42.13:250][411]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.28-19.42.13:250][411]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.28-19.42.13:286][411]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.28-19.42.13:286][411]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.28-19.42.13:286][411]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.28-19.42.13:286][411]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.28-19.42.13:286][411]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.28-19.42.13:286][411]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.28-19.42.13:287][411]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.28-19.42.13:288][411]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.28-19.42.13:288][411]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.28-19.42.13:290][411]LogExit: Exiting.
+[2015.01.28-19.42.13:305][411]Log file closed, 01/28/15 14:42:13

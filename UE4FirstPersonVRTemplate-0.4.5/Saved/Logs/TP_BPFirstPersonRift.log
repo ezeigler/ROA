@@ -1,0 +1,719 @@
+﻿Log file open, 01/30/15 13:57:04
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.30-18.57.04:208][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.30-18.57.04:279][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.30-18.57.04:309][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.30-18.57.04:317][  0]LogInit: Object subsystem initialized
+[2015.01.30-18.57.04:319][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.30-18.57.04:319][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.30-18.57.04:343][  0]LogInit: Computer: LENOVO-PC
+[2015.01.30-18.57.04:343][  0]LogInit: User: eric
+[2015.01.30-18.57.04:343][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.30-18.57.04:343][  0]LogInit: High frequency timer resolution =2.338344 MHz
+[2015.01.30-18.57.04:344][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.30-18.57.04:344][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.30-18.57.04:344][  0]LogMemory: Process Physical Memory: 48.80 MB used, 48.80 MB peak
+[2015.01.30-18.57.04:344][  0]LogMemory: Process Virtual Memory: 24.70 MB used, 24.71 MB peak
+[2015.01.30-18.57.04:344][  0]LogMemory: Physical Memory: 3998.93 MB used, 8138.27 MB total
+[2015.01.30-18.57.04:344][  0]LogMemory: Virtual Memory: 277.11 MB used, 134217728.00 MB total
+[2015.01.30-18.57.04:383][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.30-18.57.04:383][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.30-18.57.04:406][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.30-18.57.04:406][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.30-18.57.04:407][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.30-18.57.04:407][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.30-18.57.04:407][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.30-18.57.04:411][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.30-18.57.04:421][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.30-18.57.04:967][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.30-18.57.05:091][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.30-18.57.15:875][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.30-18.57.16:650][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.30-18.57.16:700][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.30-18.57.17:197][  0]LogDerivedDataCache: Loaded boot cache 0.50s 39MB C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.30-18.57.17:197][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.30-18.57.17:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.30-18.57.17:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.30-18.57.17:351][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.30-18.57.17:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eric/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.30-18.57.21:426][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.30-18.57.22:185][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.30-18.57.22:185][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.30-18.57.24:311][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.30-18.57.24:691][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.30-18.57.59:255][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.30-18.57.59:971][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Binaries/Win64. Error: 0
+[2015.01.30-18.58.01:005][  0]SourceControl: Info Source control is disabled
+[2015.01.30-18.58.01:005][  0]SourceControl: Info Source control is disabled
+[2015.01.30-18.58.01:012][  0]SourceControl: Info Source control is disabled
+[2015.01.30-18.58.01:984][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.30-18.58.01:984][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.30-18.58.02:543][  0]LogEngine: Initializing Engine...
+[2015.01.30-18.58.02:789][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.30-18.58.02:862][  0]LogInit: FAudioDevice initialized.
+[2015.01.30-18.58.02:976][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.30-18.58.03:007][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.30-18.58.03:010][  0]LogInit: Texture streaming: Enabled
+[2015.01.30-18.58.03:307][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.30-18.58.03:307][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.30-18.58.03:309][  0]LogAnalytics: SetUserId 7d92e87c14bba1ec53d44500474e03f3
+[2015.01.30-18.58.03:309][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.30-18.58.03:353][  0]LogInit: Transaction tracking system initialized
+[2015.01.30-18.58.03:773][  0]BlueprintLog: New page: Editor Load
+[2015.01.30-18.58.04:078][  0]LogAssetRegistry: FAssetRegistry took 0.0206 seconds to start up
+[2015.01.30-18.58.04:099][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.30-18.58.07:037][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.30-18.58.07:491][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.30-18.58.09:694][  0]LogConsoleResponse:Display: 
+[2015.01.30-18.58.10:657][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.30-18.58.13:150][  0]SourceControl: Info Source control is disabled
+[2015.01.30-18.58.13:164][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.30-18.58.13:294][  0]LightingResults: New page: Lighting Build
+[2015.01.30-18.58.13:339][  0]MapCheck: New page: Map Check
+[2015.01.30-18.58.13:339][  0]LightingResults: New page: Lighting Build
+[2015.01.30-18.58.13:393][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3161D19E0
+[2015.01.30-18.58.16:144][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.01.30-18.58.16:194][  0]LogBlueprint:Warning: [compiler] Warning [0073.35] Compile of ContextMenu successful, but with 1 Warning(s) [in 109 ms]
+[2015.01.30-18.58.16:858][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.01.30-18.58.16:905][  0]LogBlueprint:Warning: [compiler] Warning [0074.06] Compile of ContextMenu successful, but with 1 Warning(s) [in 63 ms]
+[2015.01.30-18.58.16:905][  0]LogBlueprint:Warning: [compiler] Warning [0074.06] Compile of ContextMenu successful, but with 2 Warning(s) [in 0 ms]
+[2015.01.30-18.58.20:394][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.30-18.58.20:394][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.30-18.58.20:397][  0]Cmd: MAP CHECKDEP
+[2015.01.30-18.58.20:399][  0]MapCheck: New page: Example_Map - Jan 30, 2015, 8:58:20 AM
+[2015.01.30-18.58.20:564][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.096ms to complete.
+[2015.01.30-18.58.20:564][  0]LogFileHelpers: Loading map 'Example_Map' took 7.412
+[2015.01.30-18.58.21:194][  0]LogCollectionManager: Loaded 0 collections in 0.001194 seconds
+[2015.01.30-18.58.21:996][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.30-18.58.22:038][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.30-18.58.22:088][  0]LogLoad: Full Startup: 79.24 seconds (BP compile: 0.86 seconds)
+[2015.01.30-18.58.22:434][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.01.30-18.58.23:132][  1]LogRenderer:Warning: Reallocating scene render targets to support 704x856.
+[2015.01.30-18.58.23:620][  3]LogAssetRegistry: Asset discovery search completed in 19.5529 seconds
+[2015.01.30-18.58.23:632][  3]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2015.01.30-19.00.16:200][437]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.00.16:200][437]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.00.16:330][437]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.30-19.00.19:978][522]LogTexture:Display: Building textures: ThumbnailTexture (BGRA8)
+[2015.01.30-19.00.21:876][571]LogCascade: Quitting Cascade. FXSystem=0x000000D3201D8400
+[2015.01.30-19.00.23:477][628]LogEditorViewport: Clicking on Actor (LMB): Emitter (clouds7)
+[2015.01.30-19.00.24:841][681]Cmd: DELETE
+[2015.01.30-19.00.24:841][681]Cmd: ACTOR DELETE
+[2015.01.30-19.00.24:958][681]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.00.25:121][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3201D8400
+[2015.01.30-19.00.25:253][681]LogEditorActor: Deleted 1 Actors (0.302 secs)
+[2015.01.30-19.00.27:232][800]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.00.28:112][851]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.30-19.00.28:112][851]Aligned camera to fit all selected actors.
+[2015.01.30-19.00.41:546][263]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire)
+[2015.01.30-19.00.43:908][327]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.00.43:908][327]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.02.56:760][217]LogEditorTransaction: Undo Delete Selected Module
+[2015.01.30-19.04.08:490][764]LogEditorTransaction: Undo Delete Selected Module
+[2015.01.30-19.04.48:134][ 87]LogRenderer:Warning: Reallocating scene render targets to support 704x872.
+[2015.01.30-19.07.18:001][929]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire)
+[2015.01.30-19.07.18:774][963]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.30-19.07.18:774][963]Aligned camera to fit all selected actors.
+[2015.01.30-19.07.36:558][714]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.30-19.07.36:558][714]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects/materials'
+[2015.01.30-19.07.51:713][189]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.07.51:768][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.08.04:769][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.08.04:769][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.30-19.08.04:769][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.08.04:769][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.30-19.08.04:869][189]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.08.04:997][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_1, compiling.
+[2015.01.30-19.08.05:021][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2015.01.30-19.08.05:045][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2015.01.30-19.08.05:096][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2015.01.30-19.08.06:776][229]MaterialEditorStats: Info Base pass shader without light map: 23 instructions
+[2015.01.30-19.08.06:776][229]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.08.06:776][229]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.08.10:303][376]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.08.11:226][409]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.01.30-19.08.11:226][409]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.08.11:226][409]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.08.16:424][584]LogMaterialEditor: Applying material FireMaterials
+[2015.01.30-19.08.18:091][584]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.08.18:273][584]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.08.18:285][584]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.08.18:314][584]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.08.18:314][584]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.08.18:317][584]LogMaterial: 0.004376 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.30-19.08.22:399][748]MaterialEditorStats: Info Base pass shader without light map: 36 instructions
+[2015.01.30-19.08.22:399][748]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.08.22:399][748]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.01.30-19.08.26:520][859]LogSavePackage: Save=59.643490ms
+[2015.01.30-19.08.26:520][859]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map_Auto1496FEBA6483467F03CB8F1A44DDC4F62.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.01.30-19.08.26:569][859]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.914
+[2015.01.30-19.08.26:569][859]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.914
+[2015.01.30-19.08.26:578][859]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/clouds] ([1] browsable assets)...
+[2015.01.30-19.08.26:590][859]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/clouds.clouds]
+[2015.01.30-19.08.26:590][859]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/clouds]
+[2015.01.30-19.08.26:782][859]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.01.30-19.08.28:856][859]LogSavePackage: Save=2159.890625ms
+[2015.01.30-19.08.28:856][859]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/clouds_Auto184F9D0C64B97FC4FC4864A90635A1BBE.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/clouds_Auto1.uasset'
+[2015.01.30-19.08.28:897][859]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/Fire] ([1] browsable assets)...
+[2015.01.30-19.08.28:908][859]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/Fire.Fire]
+[2015.01.30-19.08.28:908][859]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/Fire]
+[2015.01.30-19.08.29:254][859]LogSavePackage: Save=200.078339ms
+[2015.01.30-19.08.29:254][859]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Fire_Auto15CB085D849E51C7C4EFE91BFB3341C12.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/Fire_Auto1.uasset'
+[2015.01.30-19.08.29:268][859]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/materials/FireMaterials] ([1] browsable assets)...
+[2015.01.30-19.08.29:286][859]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Effects/materials/FireMaterials.FireMaterials]
+[2015.01.30-19.08.29:286][859]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/materials/FireMaterials]
+[2015.01.30-19.08.29:943][859]LogSavePackage: Save=549.040283ms
+[2015.01.30-19.08.29:943][859]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/FireMaterials_Auto1972C6D9B499E713EBC6BAEA016BDDAD7.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/materials/FireMaterials_Auto1.uasset'
+[2015.01.30-19.08.29:948][859]LogFileHelpers: Auto-saving content packages took 3.379
+[2015.01.30-19.09.04:261][308]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire)
+[2015.01.30-19.11.06:267][970]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.11.08:310][ 52]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.01.30-19.11.08:310][ 52]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.11.08:310][ 52]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.11.09:350][ 97]LogMaterialEditor: Applying material FireMaterials
+[2015.01.30-19.11.11:024][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.11.11:128][ 97]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.11.11:154][ 97]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.11.11:166][ 97]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.11.11:166][ 97]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.11.11:169][ 97]LogMaterial: 0.004215 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.30-19.11.14:973][278]MaterialEditorStats: Info Base pass shader without light map: 36 instructions
+[2015.01.30-19.11.14:973][278]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.11.14:973][278]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.01.30-19.12.26:978][975]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.12.28:867][ 61]MaterialEditorStats: Info Base pass shader without light map: 16 instructions
+[2015.01.30-19.12.28:867][ 61]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.12.28:867][ 61]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.12.34:470][342]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.12.35:630][388]MaterialEditorStats: Info Base pass shader without light map: 16 instructions
+[2015.01.30-19.12.35:630][388]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.12.35:630][388]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.12.37:829][506]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.12.37:879][506]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.12.40:399][602]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.01.30-19.12.40:399][602]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 73 instructions
+[2015.01.30-19.12.40:399][602]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.12.40:399][602]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.01.30-19.12.42:947][707]LogMaterialEditor: Applying material FireMaterials
+[2015.01.30-19.12.44:623][707]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.12.44:740][707]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.12.44:779][707]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.12.44:804][707]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.12.44:805][707]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.12.44:807][707]LogMaterial: 0.004136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.30-19.12.57:829][315]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2015.01.30-19.12.57:829][315]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 93 instructions
+[2015.01.30-19.12.57:829][315]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.12.57:829][315]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.01.30-19.12.58:390][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.12.58:390][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.30-19.13.01:257][451]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.13.01:260][451]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.30-19.13.02:078][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.13.02:079][485]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.30-19.13.15:747][115]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.13.18:535][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 17 instructions
+[2015.01.30-19.13.18:535][230]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 17 instructions
+[2015.01.30-19.13.18:535][230]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.13.18:535][230]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.13.20:706][349]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.13.22:783][421]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 18 instructions
+[2015.01.30-19.13.22:783][421]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 18 instructions
+[2015.01.30-19.13.22:783][421]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.13.22:783][421]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.13.23:413][454]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.13.23:421][454]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.13.24:585][494]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.01.30-19.13.24:585][494]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.13.24:585][494]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.13.24:607][495]LogMaterialEditor: Applying material FireMaterials
+[2015.01.30-19.13.26:268][495]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.13.26:350][495]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.13.26:364][495]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-19.13.26:374][495]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.13.26:374][495]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.13.26:376][495]LogMaterial: 0.003465 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.30-19.13.30:051][645]MaterialEditorStats: Info Base pass shader without light map: 36 instructions
+[2015.01.30-19.13.30:051][645]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.13.30:051][645]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.01.30-19.13.40:793][188]LogEditorTransaction: Undo Edit Z
+[2015.01.30-19.13.40:869][188]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-19.13.42:038][225]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.01.30-19.13.42:038][225]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.13.42:038][225]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.14.48:908][632]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.30-19.14.48:908][632]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles/Materials'
+[2015.01.30-19.14.50:577][701]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.14.50:603][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.30-19.14.50:749][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.30-19.14.50:749][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.01.30-19.14.50:749][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.01.30-19.14.50:749][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.01.30-19.14.50:752][701]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.14.50:785][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2015.01.30-19.14.50:797][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2015.01.30-19.14.50:808][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.01.30-19.14.54:332][781]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.01.30-19.14.54:332][781]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 97 instructions
+[2015.01.30-19.14.54:332][781]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.14.54:332][781]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.01.30-19.14.56:980][813]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.14.58:989][892]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 18 instructions
+[2015.01.30-19.14.58:989][892]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 18 instructions
+[2015.01.30-19.14.58:990][892]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.14.58:990][892]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.15.00:290][948]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.15.00:320][948]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.15.01:470][992]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2015.01.30-19.15.01:470][992]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.15.01:470][992]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.15.06:600][234]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.15.07:848][286]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2015.01.30-19.15.07:848][286]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.15.07:848][286]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.30-19.15.09:534][359]LogMaterialEditor: Applying material M_smoke_subUV
+[2015.01.30-19.15.11:221][359]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.30-19.15.11:305][359]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling.
+[2015.01.30-19.15.11:371][359]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling.
+[2015.01.30-19.15.11:383][359]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.15.11:383][359]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.15.11:385][359]LogMaterial: 0.003748 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.30-19.15.13:792][451]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire)
+[2015.01.30-19.15.15:023][502]Cmd: DELETE
+[2015.01.30-19.15.15:023][502]Cmd: ACTOR DELETE
+[2015.01.30-19.15.15:024][502]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.15.15:040][502]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.01.30-19.15.15:193][509]MaterialEditorStats: Info Base pass shader without light map: 39 instructions
+[2015.01.30-19.15.15:193][509]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.01.30-19.15.15:193][509]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.01.30-19.15.16:855][583]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire2)
+[2015.01.30-19.17.04:447][696]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire2)
+[2015.01.30-19.18.33:814][787]LogSavePackage: Save=56.709793ms
+[2015.01.30-19.18.33:814][787]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map_Auto287CAEC6C4000FAF27ECFBEAFCE98D48C.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
+[2015.01.30-19.18.33:823][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.238
+[2015.01.30-19.18.33:823][787]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2015.01.30-19.18.33:831][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/Fire] ([1] browsable assets)...
+[2015.01.30-19.18.33:841][787]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/Fire.Fire]
+[2015.01.30-19.18.33:841][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/Fire]
+[2015.01.30-19.18.34:230][787]LogSavePackage: Save=269.666901ms
+[2015.01.30-19.18.34:230][787]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Fire_Auto2898D9A7742F780E12F092EB7C2B4E123.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/Fire_Auto2.uasset'
+[2015.01.30-19.18.34:244][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/materials/FireMaterials] ([1] browsable assets)...
+[2015.01.30-19.18.34:263][787]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Effects/materials/FireMaterials.FireMaterials]
+[2015.01.30-19.18.34:263][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/materials/FireMaterials]
+[2015.01.30-19.18.34:922][787]LogSavePackage: Save=553.209045ms
+[2015.01.30-19.18.34:922][787]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/FireMaterials_Auto25ED303AB4CE303FA5895E29DC8BD8D1E.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/materials/FireMaterials_Auto2.uasset'
+[2015.01.30-19.18.34:936][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/Materials/M_smoke_subUV] ([1] browsable assets)...
+[2015.01.30-19.18.34:953][787]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV]
+[2015.01.30-19.18.34:953][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/Materials/M_smoke_subUV]
+[2015.01.30-19.18.35:535][787]LogSavePackage: Save=475.023346ms
+[2015.01.30-19.18.35:535][787]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/M_smoke_subUV_Auto26FADF3A4461AB6BBC8034E9D32A5C91E.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_smoke_subUV_Auto2.uasset'
+[2015.01.30-19.18.35:540][787]LogFileHelpers: Auto-saving content packages took 1.717
+[2015.01.30-19.18.39:940][ 25]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.18.44:665][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.30-19.18.44:665][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.01.30-19.18.45:617][325]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.18.45:617][325]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.19.02:776][ 39]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.30-19.19.02:776][ 39]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles/Materials'
+[2015.01.30-19.19.13:102][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.01.30-19.19.13:102][433]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.30-19.19.25:559][943]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire2)
+[2015.01.30-19.19.39:899][564]Cmd: DELETE
+[2015.01.30-19.19.39:899][564]Cmd: ACTOR DELETE
+[2015.01.30-19.19.39:900][564]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.19.39:917][564]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.01.30-19.19.56:573][280]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire2)
+[2015.01.30-19.19.59:791][415]Cmd: DELETE
+[2015.01.30-19.19.59:791][415]Cmd: ACTOR DELETE
+[2015.01.30-19.19.59:792][415]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.19.59:808][415]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.01.30-19.20.06:708][692]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire2)
+[2015.01.30-19.27.53:107][417]LogCascade: Non-seeded module ParticleModuleRotation
+[2015.01.30-19.28.36:297][128]LogSavePackage: Save=55.255772ms
+[2015.01.30-19.28.36:297][128]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map_Auto3249099F24B34D84C6A98B4AD62AB5851.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Maps/Example_Map_Auto3.umap'
+[2015.01.30-19.28.36:306][128]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.232
+[2015.01.30-19.28.36:306][128]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.232
+[2015.01.30-19.28.36:316][128]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/Fire] ([1] browsable assets)...
+[2015.01.30-19.28.36:326][128]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/Fire.Fire]
+[2015.01.30-19.28.36:326][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/Fire]
+[2015.01.30-19.28.36:633][128]LogSavePackage: Save=201.949326ms
+[2015.01.30-19.28.36:633][128]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Fire_Auto3A9F99C4540CEFB4D5B5CC381691239BD.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/Fire_Auto3.uasset'
+[2015.01.30-19.28.36:638][128]LogFileHelpers: Auto-saving content packages took 0.332
+[2015.01.30-19.29.48:344][977]LogRenderer:Warning: Reallocating scene render targets to support 744x896.
+[2015.01.30-19.29.53:094][ 98]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.30-19.29.53:094][ 98]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.01.30-19.29.53:284][ 98]LogPlayLevel: PIE:  Blueprint regeneration took 189 ms (1 blueprints)
+[2015.01.30-19.29.53:285][ 98]PIE: New page: PIE session: Example_Map (Jan 30, 2015, 9:29:53 AM)
+[2015.01.30-19.29.53:302][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016690s)
+[2015.01.30-19.29.53:303][ 98]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2015.01.30-19.29.53:303][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.017606s)
+[2015.01.30-19.29.53:431][ 98]LogWorld: Game class is 'VRGameMode_C'
+[2015.01.30-19.29.53:433][ 98]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.30-19.29.53:447][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2015.01.30-14.29.53
+[2015.01.30-19.29.53:506][ 98]LogWorld: Bringing up level for play took: 0.073443
+[2015.01.30-19.29.53:657][ 98]Cmd: oculusdev on 
+[2015.01.30-19.29.53:657][ 98]Command not recognized: oculusdev on 
+[2015.01.30-19.29.53:658][ 98]Cmd: hmdwarp 1=1 
+[2015.01.30-19.29.53:658][ 98]Command not recognized:  hmdwarp 1=1 
+[2015.01.30-19.29.53:658][ 98]Cmd: hmdwarp s=1.3 
+[2015.01.30-19.29.53:658][ 98]Command not recognized:  hmdwarp s=1.3 
+[2015.01.30-19.29.53:658][ 98]Cmd: hmd sp 110.0
+[2015.01.30-19.29.53:658][ 98]Command not recognized:  hmd sp 110.0
+[2015.01.30-19.29.53:658][ 98]Cmd: sg.PostProcessQuality 0.0
+[2015.01.30-19.29.53:658][ 98]sg.PostProcessQuality = "0"
+[2015.01.30-19.29.53:658][ 98]Cmd: sg.ShadowQuality 1.0
+[2015.01.30-19.29.53:658][ 98]sg.ShadowQuality = "1"
+[2015.01.30-19.29.53:658][ 98]Cmd: sg.TextureQuality 1.0
+[2015.01.30-19.29.53:658][ 98]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.01.30-19.29.53:658][ 98]sg.TextureQuality = "1"
+[2015.01.30-19.29.53:659][ 98]Cmd: sg.EffectsQuality 3.0
+[2015.01.30-19.29.53:659][ 98]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.01.30-19.29.53:659][ 98]sg.EffectsQuality = "3"
+[2015.01.30-19.29.53:659][ 98]Cmd: r.ViewDistanceScale 1.0
+[2015.01.30-19.29.53:659][ 98]r.ViewDistanceScale = "1"
+[2015.01.30-19.29.53:659][ 98]Cmd: r.PostProcessAAQuality 1.0
+[2015.01.30-19.29.53:659][ 98]r.PostProcessAAQuality = "1"
+[2015.01.30-19.29.53:659][ 98]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.379
+[2015.01.30-19.30.25:534][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D32F4319E0
+[2015.01.30-19.30.39:972][644]LogCascade: Quitting Cascade. FXSystem=0x000000D30D10A700
+[2015.01.30-19.30.46:132][849]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.31.02:138][362]Cmd: DELETE
+[2015.01.30-19.31.02:139][362]Cmd: ACTOR DELETE
+[2015.01.30-19.31.02:140][362]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.31.02:181][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D30D10A700
+[2015.01.30-19.31.02:183][362]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.01.30-19.31.02:796][383]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.31.04:958][458]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.30-19.31.04:958][458]Aligned camera to fit all selected actors.
+[2015.01.30-19.31.14:910][841]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.30-19.31.14:910][841]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.01.30-19.31.42:852][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.31.42:852][187]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.34.42:463][ 79]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.34.54:870][418]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.34.58:809][485]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire4)
+[2015.01.30-19.35.00:260][504]Cmd: DELETE
+[2015.01.30-19.35.00:260][504]Cmd: ACTOR DELETE
+[2015.01.30-19.35.00:263][504]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.35.00:341][504]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2015.01.30-19.35.03:948][561]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.35.57:819][469]Cmd: DELETE
+[2015.01.30-19.35.57:819][469]Cmd: ACTOR DELETE
+[2015.01.30-19.35.57:819][469]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.35.57:871][469]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.01.30-19.35.59:158][505]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.36.02:270][577]Cmd: DELETE
+[2015.01.30-19.36.02:270][577]Cmd: ACTOR DELETE
+[2015.01.30-19.36.02:272][577]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.36.02:287][577]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.01.30-19.36.08:626][762]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.36.20:331][ 78]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.36.48:084][873]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.37.49:647][521]LogUnrealMath: Expression Error : No value recognized
+[2015.01.30-19.37.49:647][521]LogUnrealMath: Expression Error : Error in expression
+[2015.01.30-19.39.02:907][124]LogSavePackage: Save=55.613289ms
+[2015.01.30-19.39.02:907][124]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map_Auto494C62AFA4B1E0E53F02767B712848B34.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Maps/Example_Map_Auto4.umap'
+[2015.01.30-19.39.02:914][124]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.232
+[2015.01.30-19.39.02:914][124]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.232
+[2015.01.30-19.39.02:923][124]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/Fire] ([1] browsable assets)...
+[2015.01.30-19.39.02:934][124]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/Fire.Fire]
+[2015.01.30-19.39.02:934][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/Fire]
+[2015.01.30-19.39.03:241][124]LogSavePackage: Save=203.562012ms
+[2015.01.30-19.39.03:241][124]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Fire_Auto433353D1D4DC36929E0A01090B971705C.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/Fire_Auto4.uasset'
+[2015.01.30-19.39.03:255][124]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/PurpleFire02] ([1] browsable assets)...
+[2015.01.30-19.39.03:265][124]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/PurpleFire02.PurpleFire02]
+[2015.01.30-19.39.03:265][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/PurpleFire02]
+[2015.01.30-19.39.03:473][124]LogSavePackage: Save=203.490158ms
+[2015.01.30-19.39.03:473][124]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/PurpleFire02_Auto4434965394725BEEF320E36988FC6BEFA.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Effects/PurpleFire02_Auto4.uasset'
+[2015.01.30-19.39.03:477][124]LogFileHelpers: Auto-saving content packages took 0.564
+[2015.01.30-19.41.22:223][793]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire4)
+[2015.01.30-19.41.34:762][981]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush9.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush8.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush7.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush6.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush5.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush4.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush10.Model_9
+[2015.01.30-19.41.58:681][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_6:PersistentLevel.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush.Model_9
+[2015.01.30-19.41.58:681][263]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Model /Engine/Transient.World_6:PersistentLevel.Model_9) from referencer (BrushComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.BrushComponent0).  Import failed...
+[2015.01.30-19.41.58:681][263]LogProperty:Warning: ObjectProperty /Script/Engine.BrushComponent:Brush: unresolved reference to 'Model'Model_9''
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Engine/Transient.World_6:PersistentLevel.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush9.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush8.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush7.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush6.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush5.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush4.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush10.Model_9
+[2015.01.30-19.41.58:704][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush.Model_9
+[2015.01.30-19.41.58:705][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9
+[2015.01.30-19.41.58:705][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Engine/Transient.World_6:PersistentLevel.Model_9
+[2015.01.30-19.41.58:705][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush9.Model_9
+[2015.01.30-19.41.58:705][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush8.Model_9
+[2015.01.30-19.41.58:705][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush7.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush6.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush5.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush4.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush10.Model_9
+[2015.01.30-19.41.58:706][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2_11.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush_10.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Engine/Transient.World_6:PersistentLevel.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush9.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush8.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush7.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush6.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush5.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush4.Model_9
+[2015.01.30-19.41.58:707][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3.Model_9
+[2015.01.30-19.41.58:708][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush2.Model_9
+[2015.01.30-19.41.58:708][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush10.Model_9
+[2015.01.30-19.41.58:708][263]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush3_12.Model_9 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.CylinderBrush.Model_9
+[2015.01.30-19.42.03:289][311]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.01.30-19.42.04:531][326]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire4)
+[2015.01.30-19.42.45:984][811]Cmd: DELETE
+[2015.01.30-19.42.45:984][811]Cmd: ACTOR DELETE
+[2015.01.30-19.42.45:988][811]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.42.46:018][811]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.01.30-19.42.50:001][856]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.42.56:516][919]Cmd: DELETE
+[2015.01.30-19.42.56:516][919]Cmd: ACTOR DELETE
+[2015.01.30-19.42.56:520][919]LogEditorActor: Deleted Actor: Emitter
+[2015.01.30-19.42.56:560][919]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2015.01.30-19.42.57:537][929]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire3)
+[2015.01.30-19.42.58:983][946]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.30-19.42.58:983][946]Aligned camera to fit all selected actors.
+[2015.01.30-19.44.42:936][999]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire4)
+[2015.01.30-19.44.46:523][ 35]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.01.30-19.44.46:524][ 35]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.01.30-19.44.48:504][ 52]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-19.44.48:504][ 52]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-19.49.41:690][707]LogSavePackage: Save=6239.732910ms
+[2015.01.30-19.49.41:690][707]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_Map_Auto58319D0014384F67FD9D351A86AFBFC1A.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Autosaves/Game/Maps/Example_Map_Auto5.umap'
+[2015.01.30-19.49.41:827][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 10.487
+[2015.01.30-19.49.41:827][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 10.487
+[2015.01.30-19.57.06:737][912]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire4)
+[2015.01.30-20.11.18:121][935]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire2)
+[2015.01.30-20.11.19:794][952]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.30-20.11.19:794][952]Aligned camera to fit all selected actors.
+[2015.01.30-20.13.28:416][ 83]LogEditorViewport: Clicking on Actor (LMB): Emitter (Fire4)
+[2015.01.30-20.13.29:465][101]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.30-20.13.29:466][101]Aligned camera to fit all selected actors.
+[2015.01.30-21.30.43:995][550]LogSavePackage: Save=51.727634ms
+[2015.01.30-21.30.43:995][550]LogSavePackage: Moving '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Saved/Example_MapF76BF2D546E994644A363EB0BB0E98D4.tmp' to '../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Content/Maps/Example_Map.umap'
+[2015.01.30-21.30.48:726][566]LogCascade: Quitting Cascade. FXSystem=0x000000D31F499080
+[2015.01.30-21.30.52:365][566]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.30-21.30.52:575][566]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-21.30.52:582][566]LogMaterial: Missing cached shader map for material FireMaterials, compiling.
+[2015.01.30-21.30.52:588][566]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-21.30.52:588][566]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-21.30.52:588][566]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.30-21.30.52:588][566]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.30-21.30.52:954][566]LogMaterial: 0.366198 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.30-21.30.53:211][566]LogCascade: Quitting Cascade. FXSystem=0x000000D3301A0EA0
+[2015.01.30-21.30.53:360][566]LogCascade: Quitting Cascade. FXSystem=0x000000D32E0FFE20
+[2015.01.30-21.30.54:228][567]Cmd: QUIT_EDITOR
+[2015.01.30-21.30.55:167][567]LogExit: Preparing to exit.
+[2015.01.30-21.30.55:915][567]LogExit: Editor shut down
+[2015.01.30-21.30.55:916][567]LogExit: Transaction tracking system shut down
+[2015.01.30-21.30.55:918][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D32E0FFE20
+[2015.01.30-21.30.55:918][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3301A0EA0
+[2015.01.30-21.30.55:919][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3195C4C20
+[2015.01.30-21.30.55:922][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D316797600
+[2015.01.30-21.30.55:926][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D320024860
+[2015.01.30-21.30.55:926][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3201D94E0
+[2015.01.30-21.30.55:927][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D318ED0220
+[2015.01.30-21.30.55:927][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3204A1120
+[2015.01.30-21.30.56:906][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D31F499080
+[2015.01.30-21.30.56:906][567]LogExit: Object subsystem successfully closed.
+[2015.01.30-21.30.58:338][567]LogModuleManager: Shutting down and abandoning module MaterialEditor (175)
+[2015.01.30-21.30.58:338][567]LogModuleManager: Shutting down and abandoning module DistCurveEditor (174)
+[2015.01.30-21.30.58:338][567]LogModuleManager: Shutting down and abandoning module Cascade (173)
+[2015.01.30-21.30.58:338][567]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.30-21.30.58:339][567]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.30-21.30.58:339][567]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.30-21.30.58:340][567]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.30-21.30.58:340][567]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.30-21.30.58:340][567]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.30-21.30.58:352][567]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.30-21.30.58:354][567]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.30-21.30.58:364][567]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.30-21.30.58:372][567]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.30-21.30.58:373][567]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.30-21.30.58:373][567]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.30-21.30.58:373][567]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.30-21.30.58:373][567]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.30-21.30.58:373][567]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.30-21.30.58:373][567]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.30-21.30.58:374][567]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.30-21.30.58:374][567]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.30-21.30.58:397][567]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.30-21.30.58:446][567]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.30-21.30.58:447][567]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.30-21.30.58:447][567]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.30-21.30.58:447][567]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.30-21.30.58:459][567]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.30-21.30.58:459][567]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.30-21.30.58:459][567]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.30-21.30.58:460][567]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.30-21.30.58:460][567]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.30-21.30.58:460][567]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.30-21.30.58:460][567]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.30-21.30.58:460][567]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.30-21.30.58:460][567]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.30-21.30.58:462][567]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.30-21.30.58:462][567]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.30-21.30.58:476][567]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.30-21.30.58:476][567]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.30-21.30.58:490][567]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.30-21.30.58:500][567]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.30-21.30.58:508][567]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.30-21.30.58:525][567]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.30-21.30.58:525][567]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.30-21.30.58:539][567]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.30-21.30.58:563][567]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.30-21.30.58:583][567]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.30-21.30.58:617][567]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.30-21.30.58:617][567]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.30-21.30.58:617][567]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.30-21.30.58:619][567]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.30-21.30.58:754][567]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.30-21.30.58:771][567]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.30-21.30.58:805][567]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.30-21.30.58:805][567]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.30-21.30.58:805][567]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.30-21.30.58:805][567]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.30-21.30.58:825][567]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.30-21.30.58:872][567]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.30-21.30.58:872][567]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.30-21.30.58:891][567]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.30-21.30.58:912][567]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.30-21.30.58:915][567]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.30-21.30.58:915][567]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.30-21.30.58:915][567]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.30-21.30.58:915][567]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.30-21.30.58:915][567]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.30-21.30.58:916][567]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.30-21.30.58:935][567]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.30-21.30.59:098][567]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.30-21.30.59:118][567]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.30-21.30.59:135][567]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.30-21.30.59:140][567]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.30-21.30.59:145][567]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.30-21.30.59:145][567]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.30-21.30.59:145][567]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.30-21.30.59:286][567]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.30-21.30.59:310][567]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.30-21.30.59:310][567]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.30-21.30.59:330][567]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.30-21.30.59:353][567]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.30-21.30.59:359][567]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.30-21.30.59:373][567]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.30-21.30.59:373][567]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.30-21.30.59:426][567]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.30-21.30.59:426][567]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.30-21.30.59:464][567]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.30-21.30.59:464][567]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.30-21.30.59:478][567]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.30-21.30.59:495][567]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.30-21.30.59:496][567]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.30-21.30.59:496][567]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.30-21.30.59:540][567]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.30-21.30.59:540][567]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.30-21.30.59:541][567]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.30-21.30.59:541][567]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.30-21.30.59:541][567]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.30-21.30.59:541][567]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.30-21.30.59:558][567]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.30-21.30.59:569][567]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.30-21.30.59:671][567]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.30-21.30.59:691][567]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.30-21.30.59:691][567]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.30-21.30.59:721][567]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.30-21.30.59:721][567]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.30-21.30.59:722][567]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.30-21.30.59:722][567]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.30-21.30.59:731][567]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.30-21.30.59:749][567]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.30-21.30.59:755][567]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.30-21.30.59:765][567]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.30-21.30.59:792][567]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.30-21.30.59:792][567]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.30-21.30.59:817][567]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.30-21.30.59:856][567]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.30-21.30.59:875][567]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.30-21.30.59:893][567]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.30-21.30.59:893][567]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.30-21.30.59:940][567]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.30-21.30.59:969][567]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.30-21.30.59:990][567]LogDerivedDataCache: Shutdown
+[2015.01.30-21.30.59:990][567]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.30-21.30.59:991][567]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.30-21.31.00:006][567]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.30-21.31.00:017][567]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.30-21.31.00:017][567]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.30-21.31.00:018][567]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.30-21.31.00:018][567]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.30-21.31.00:031][567]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.30-21.31.00:042][567]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.30-21.31.00:042][567]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.30-21.31.00:042][567]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.30-21.31.00:042][567]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.30-21.31.00:043][567]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.30-21.31.00:044][567]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.30-21.31.00:057][567]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.30-21.31.00:057][567]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.30-21.31.00:057][567]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.30-21.31.00:057][567]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.30-21.31.00:063][567]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.30-21.31.00:082][567]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.30-21.31.00:100][567]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.30-21.31.00:100][567]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.30-21.31.00:100][567]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.30-21.31.00:121][567]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.30-21.31.00:129][567]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.30-21.31.00:129][567]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.30-21.31.00:129][567]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.30-21.31.00:129][567]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.30-21.31.00:129][567]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.30-21.31.00:142][567]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.30-21.31.00:154][567]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.30-21.31.00:154][567]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.30-21.31.00:171][567]LogExit: Exiting.
+[2015.01.30-21.31.00:206][567]Log file closed, 01/30/15 16:31:00

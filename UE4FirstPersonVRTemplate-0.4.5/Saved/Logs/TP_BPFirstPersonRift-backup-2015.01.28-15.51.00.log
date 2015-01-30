@@ -1,0 +1,420 @@
+﻿Log file open, 01/28/15 14:46:02
+LogInit:Display: Running engine for game: TP_BPFirstPersonRift
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.28-19.46.02:307][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.01.28-19.46.02:373][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.28-19.46.02:402][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.28-19.46.02:410][  0]LogInit: Object subsystem initialized
+[2015.01.28-19.46.02:412][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.28-19.46.02:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.28-19.46.02:416][  0]LogInit: Computer: LENOVO-PC
+[2015.01.28-19.46.02:416][  0]LogInit: User: eric
+[2015.01.28-19.46.02:416][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.28-19.46.02:416][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.01.28-19.46.02:416][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.28-19.46.02:416][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.28-19.46.02:416][  0]LogMemory: Process Physical Memory: 48.76 MB used, 48.76 MB peak
+[2015.01.28-19.46.02:416][  0]LogMemory: Process Virtual Memory: 24.68 MB used, 24.68 MB peak
+[2015.01.28-19.46.02:416][  0]LogMemory: Physical Memory: 4670.13 MB used, 8138.27 MB total
+[2015.01.28-19.46.02:416][  0]LogMemory: Virtual Memory: 273.26 MB used, 134217728.00 MB total
+[2015.01.28-19.46.02:451][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.28-19.46.02:451][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.01.28-19.46.02:476][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.01.28-19.46.02:476][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.01.28-19.46.02:478][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.28-19.46.02:478][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.28-19.46.02:478][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.28-19.46.02:482][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.28-19.46.02:493][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.28-19.46.02:952][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.28-19.46.03:076][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.28-19.46.13:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.46.14:593][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.46.14:702][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.28-19.46.16:247][  0]LogDerivedDataCache: Loaded boot cache 1.55s 39MB C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.28-19.46.16:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.28-19.46.16:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.28-19.46.16:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.28-19.46.16:325][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.28-19.46.16:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eric/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.28-19.46.21:677][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.28-19.46.21:808][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.28-19.46.21:808][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.28-19.46.22:586][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.28-19.46.22:840][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.28-19.46.56:533][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.28-19.46.57:181][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Binaries/Win64. Error: 0
+[2015.01.28-19.46.57:445][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.46.57:445][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.46.57:452][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.46.58:373][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.28-19.46.58:373][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.28-19.46.58:547][  0]LogEngine: Initializing Engine...
+[2015.01.28-19.46.58:730][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.28-19.46.58:739][  0]LogInit: FAudioDevice initialized.
+[2015.01.28-19.46.58:814][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.28-19.46.58:847][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/eric/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.28-19.46.58:852][  0]LogInit: Texture streaming: Enabled
+[2015.01.28-19.46.59:232][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.28-19.46.59:232][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.28-19.46.59:234][  0]LogAnalytics: SetUserId 7d92e87c14bba1ec53d44500474e03f3
+[2015.01.28-19.46.59:234][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.28-19.46.59:309][  0]LogInit: Transaction tracking system initialized
+[2015.01.28-19.46.59:507][  0]BlueprintLog: New page: Editor Load
+[2015.01.28-19.46.59:592][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.01.28-19.46.59:592][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.28-19.47.00:969][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.47.01:305][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.28-19.47.01:983][  0]LogConsoleResponse:Display: 
+[2015.01.28-19.47.03:697][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.28-19.47.04:535][  0]SourceControl: Info Source control is disabled
+[2015.01.28-19.47.04:536][  0]Cmd: MAP LOAD FILE="../../../../../../Users/eric/Documents/Unreal Projects/UE4FirstPersonVRTemplate-0.4.5/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.28-19.47.04:540][  0]LightingResults: New page: Lighting Build
+[2015.01.28-19.47.04:549][  0]MapCheck: New page: Map Check
+[2015.01.28-19.47.04:549][  0]LightingResults: New page: Lighting Build
+[2015.01.28-19.47.04:555][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E17102D9E0
+[2015.01.28-19.47.05:779][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.01.28-19.47.05:827][  0]LogBlueprint:Warning: [compiler] Warning [0064.87] Compile of ContextMenu successful, but with 1 Warning(s) [in 111 ms]
+[2015.01.28-19.47.06:195][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2015.01.28-19.47.06:242][  0]LogBlueprint:Warning: [compiler] Warning [0065.28] Compile of ContextMenu successful, but with 1 Warning(s) [in 63 ms]
+[2015.01.28-19.47.06:242][  0]LogBlueprint:Warning: [compiler] Warning [0065.28] Compile of ContextMenu successful, but with 2 Warning(s) [in 0 ms]
+[2015.01.28-19.47.07:592][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.28-19.47.07:592][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.28-19.47.07:593][  0]Cmd: MAP CHECKDEP
+[2015.01.28-19.47.07:594][  0]MapCheck: New page: Example_Map - Jan 28, 2015, 9:47:07 AM
+[2015.01.28-19.47.07:700][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.362ms to complete.
+[2015.01.28-19.47.07:700][  0]LogFileHelpers: Loading map 'Example_Map' took 3.165
+[2015.01.28-19.47.07:869][  0]LogCollectionManager: Loaded 0 collections in 0.004025 seconds
+[2015.01.28-19.47.07:901][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.01.28-19.47.09:752][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.28-19.47.09:760][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.28-19.47.09:817][  0]LogLoad: Full Startup: 68.86 seconds (BP compile: 0.74 seconds)
+[2015.01.28-19.47.10:334][  0]LogRenderer:Warning: Reallocating scene render targets to support 920x896.
+[2015.01.28-19.47.11:164][  3]LogAssetRegistry: Asset discovery search completed in 11.5842 seconds
+[2015.01.28-19.47.11:174][  3]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (41). May be truncated at the collector.
+[2015.01.28-19.48.33:680][442]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.28-19.48.40:912][611]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.28-19.48.45:755][767]LogLinker:Warning: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.45:767][767]LogLinker: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.45:767][767]LogLinker:Warning: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.45:768][767]LogLinker: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.46:354][797]LogLinker:Warning: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.46:355][797]LogLinker: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.46:355][797]LogLinker:Warning: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.46:355][797]LogLinker: Can't find file '/Game/Blueprints/clouds'
+[2015.01.28-19.48.59:874][167]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.28-19.49.00:155][167]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.28-19.49.00:207][167]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.28-19.49.00:220][167]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.01.28-19.49.36:049][824]LogEditorTransaction: Undo Add Component
+[2015.01.28-19.49.40:301][985]LogEditorTransaction: Undo Add Component
+[2015.01.28-19.50.14:008][322]LogEditorTransaction: Undo Edit Fog Density
+[2015.01.28-19.50.14:260][329]LogEditorTransaction: Undo Edit Fog Density
+[2015.01.28-19.50.14:781][344]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2015.01.28-19.50.15:173][358]LogEditorTransaction: Undo Edit Fog Density
+[2015.01.28-19.50.20:280][527]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.01.28-19.50.27:098][932]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2015.01.28-19.50.30:851][157]Cmd: TRANSACTION UNDO
+[2015.01.28-19.50.30:851][157]LogEditorTransaction: Undo Remove Component
+[2015.01.28-19.50.33:147][279]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.28-19.50.33:626][298]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2015.01.28-19.50.34:351][334]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.01.28-19.50.43:573][772]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.01.28-19.50.43:573][772]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.01.28-19.50.43:721][772]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.28-19.52.09:887][150]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.01.28-19.52.09:887][150]Aligned camera to fit all selected actors.
+[2015.01.28-19.52.28:825][986]LogParticles:Warning: MaxCount =  507 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:826][986]LogParticles:Warning: MaxCount =  543 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:827][986]LogParticles:Warning: MaxCount =  586 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:851][987]LogParticles:Warning: MaxCount =  622 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:852][987]LogParticles:Warning: MaxCount =  676 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:853][987]LogParticles:Warning: MaxCount =  724 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:878][988]LogParticles:Warning: MaxCount =  779 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:878][988]LogParticles:Warning: MaxCount =  827 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:879][988]LogParticles:Warning: MaxCount =  875 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:904][989]LogParticles:Warning: MaxCount =  923 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:904][989]LogParticles:Warning: MaxCount =  978 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:905][989]LogParticles:Warning: MaxCount = 1038 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:906][989]LogParticles:Warning: MaxCount = 1104 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:931][990]LogParticles:Warning: MaxCount = 1165 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:931][990]LogParticles:Warning: MaxCount = 1237 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:932][990]LogParticles:Warning: MaxCount = 1309 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:957][991]LogParticles:Warning: MaxCount = 1394 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:958][991]LogParticles:Warning: MaxCount = 1478 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:958][991]LogParticles:Warning: MaxCount = 1581 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:983][992]LogParticles:Warning: MaxCount = 1695 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:984][992]LogParticles:Warning: MaxCount = 1798 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:985][992]LogParticles:Warning: MaxCount = 1913 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.28:985][992]LogParticles:Warning: MaxCount = 2027 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:011][993]LogParticles:Warning: MaxCount = 2154 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:011][993]LogParticles:Warning: MaxCount = 2287 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:012][993]LogParticles:Warning: MaxCount = 2431 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:037][994]LogParticles:Warning: MaxCount = 2576 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:038][994]LogParticles:Warning: MaxCount = 2739 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:039][994]LogParticles:Warning: MaxCount = 2908 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:064][995]LogParticles:Warning: MaxCount = 3089 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:065][995]LogParticles:Warning: MaxCount = 3276 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:066][995]LogParticles:Warning: MaxCount = 3481 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:066][995]LogParticles:Warning: MaxCount = 3728 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:091][996]LogParticles:Warning: MaxCount = 3994 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:091][996]LogParticles:Warning: MaxCount = 4271 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:092][996]LogParticles:Warning: MaxCount = 4537 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:118][997]LogParticles:Warning: MaxCount = 4820 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:118][997]LogParticles:Warning: MaxCount = 5116 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:119][997]LogParticles:Warning: MaxCount = 5435 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:144][998]LogParticles:Warning: MaxCount = 5725 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:144][998]LogParticles:Warning: MaxCount = 6075 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:145][998]LogParticles:Warning: MaxCount = 6400 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:146][998]LogParticles:Warning: MaxCount = 6738 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:171][999]LogParticles:Warning: MaxCount = 7034 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:171][999]LogParticles:Warning: MaxCount = 7287 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:172][999]LogParticles:Warning: MaxCount = 7480 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:198][  0]LogParticles:Warning: MaxCount = 7679 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:198][  0]LogParticles:Warning: MaxCount = 7812 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:199][  0]LogParticles:Warning: MaxCount = 7951 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:225][  1]LogParticles:Warning: MaxCount = 8089 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:226][  1]LogParticles:Warning: MaxCount = 8162 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:226][  1]LogParticles:Warning: MaxCount = 8307 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:227][  1]LogParticles:Warning: MaxCount = 8530 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:251][  2]LogParticles:Warning: MaxCount = 8681 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:252][  2]LogParticles:Warning: MaxCount = 8910 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:252][  2]LogParticles:Warning: MaxCount = 9145 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:277][  3]LogParticles:Warning: MaxCount = 9386 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:278][  3]LogParticles:Warning: MaxCount = 9640 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:279][  3]LogParticles:Warning: MaxCount = 9893 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:304][  4]LogParticles:Warning: MaxCount = 10158 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:305][  4]LogParticles:Warning: MaxCount = 10424 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:305][  4]LogParticles:Warning: MaxCount = 10798 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:306][  4]LogParticles:Warning: MaxCount = 11081 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:331][  5]LogParticles:Warning: MaxCount = 11377 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:332][  5]LogParticles:Warning: MaxCount = 11678 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:332][  5]LogParticles:Warning: MaxCount = 11986 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:357][  6]LogParticles:Warning: MaxCount = 12306 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:358][  6]LogParticles:Warning: MaxCount = 12523 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:358][  6]LogParticles:Warning: MaxCount = 12746 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:383][  7]LogParticles:Warning: MaxCount = 12969 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:384][  7]LogParticles:Warning: MaxCount = 13084 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:465][ 10]LogParticles:Warning: MaxCount = 13199 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:466][ 10]LogParticles:Warning: MaxCount = 13319 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:466][ 10]LogParticles:Warning: MaxCount = 13434 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:484][ 11]LogParticles:Warning: MaxCount = 13554 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:503][ 12]LogParticles:Warning: MaxCount = 13675 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:503][ 12]LogParticles:Warning: MaxCount = 13796 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:522][ 13]LogParticles:Warning: MaxCount = 13916 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:523][ 13]LogParticles:Warning: MaxCount = 14043 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:523][ 13]LogParticles:Warning: MaxCount = 14290 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:541][ 14]LogParticles:Warning: MaxCount = 14544 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:541][ 14]LogParticles:Warning: MaxCount = 14930 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:564][ 15]LogParticles:Warning: MaxCount = 15322 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:565][ 15]LogParticles:Warning: MaxCount = 15732 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:566][ 15]LogParticles:Warning: MaxCount = 16287 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:591][ 16]LogParticles:Warning: MaxCount = 16721 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:592][ 16]LogParticles:Warning: MaxCount = 17017 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:592][ 16]LogParticles:Warning: MaxCount = 17318 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:617][ 17]LogParticles:Warning: MaxCount = 17626 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:618][ 17]LogParticles:Warning: MaxCount = 17777 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:644][ 18]LogParticles:Warning: MaxCount = 17934 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:671][ 19]LogParticles:Warning: MaxCount = 18096 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.29:751][ 22]LogParticles:Warning: MaxCount = 18096 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.34:110][222]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Smoke)
+[2015.01.28-19.52.36:404][324]LogTexture:Display: Building textures: ThumbnailTexture (BGRA8)
+[2015.01.28-19.52.40:366][510]LogParticles:Warning: MaxCount = 18096 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.42:155][595]LogParticles:Warning: MaxCount = 18096 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Smoke.P_Smoke)
+[2015.01.28-19.52.53:064][109]LogCascade: Quitting Cascade. FXSystem=0x000000E106EF8860
+[2015.01.28-19.52.54:290][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.28-19.52.54:391][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E175F3BD80
+[2015.01.28-19.52.54:392][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E106EF8860
+[2015.01.28-19.52.56:365][166]Cmd: QUIT_EDITOR
+[2015.01.28-19.52.57:149][166]LogExit: Preparing to exit.
+[2015.01.28-19.52.57:841][166]LogExit: Editor shut down
+[2015.01.28-19.52.57:841][166]LogExit: Transaction tracking system shut down
+[2015.01.28-19.52.57:843][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E176BC0540
+[2015.01.28-19.52.57:843][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E17E197380
+[2015.01.28-19.52.57:843][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E17D8BB6A0
+[2015.01.28-19.52.57:843][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E17D8BB240
+[2015.01.28-19.52.57:844][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E170CF6840
+[2015.01.28-19.52.57:845][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E1600C0220
+[2015.01.28-19.52.57:909][166]LogExit: Object subsystem successfully closed.
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module DistCurveEditor (174)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module Cascade (173)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.28-19.52.57:993][166]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.28-19.52.57:994][166]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.28-19.52.57:995][166]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.28-19.52.58:020][166]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.28-19.52.58:020][166]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.28-19.52.58:020][166]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.28-19.52.58:041][166]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.28-19.52.58:217][166]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.28-19.52.58:218][166]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.28-19.52.58:219][166]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.28-19.52.58:219][166]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.28-19.52.58:219][166]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.28-19.52.58:222][166]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.28-19.52.58:323][166]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.28-19.52.58:323][166]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.28-19.52.58:323][166]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.28-19.52.58:330][166]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.28-19.52.58:331][166]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.28-19.52.58:343][166]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.28-19.52.58:416][166]LogDerivedDataCache: Shutdown
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.28-19.52.58:416][166]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.28-19.52.58:417][166]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.28-19.52.58:420][166]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.28-19.52.58:421][166]LogExit: Exiting.
+[2015.01.28-19.52.58:435][166]Log file closed, 01/28/15 14:52:58
